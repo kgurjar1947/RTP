@@ -9,27 +9,27 @@
      <title>RTP PROPERTIES NC INC Property Management</title>
 
     <!-- Favicons-->
-   <link rel="shortcut icon" href="https://rtppropertiesnc.com/img/favicon.png" type="image/x-icon">
+   <link rel="shortcut icon" href="{{ asset('/landing/img/favicon.png" type="image/x-icon')}}">
     <!-- GOOGLE WEB FONT -->
     <link rel="preconnect" href="https://fonts.gstatic.com/">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
 
     <!-- BASE CSS -->
-    <link href="https://rtppropertiesnc.com/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://rtppropertiesnc.com/css/style.css" rel="stylesheet">
-	<link href="https://rtppropertiesnc.com/css/vendors.css" rel="stylesheet">
+    <link href="{{ asset('/landing/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{ asset('/landing/css/style.css')}}" rel="stylesheet">
+	<link href="{{ asset('/landing/css/vendors.css')}}" rel="stylesheet">
 
-	<!-- REVOLUTION SLIDER CSS -->
-	<link rel="stylesheet" type="text/css" href="https://rtppropertiesnc.com/revolution-slider/fonts/font-awesome/css/font-awesome.css">
-    <link rel="stylesheet" type="text/css" href="https://rtppropertiesnc.com/revolution-slider/css/settings.css">
-    <link rel="stylesheet" type="text/css" href="https://rtppropertiesnc.com/revolution-slider/css/layers.css">
-    <link rel="stylesheet" type="text/css" href="https://rtppropertiesnc.com/revolution-slider/css/navigation.css">
+<!-- REVOLUTION SLIDER CSS -->
+	<link rel="stylesheet" type="text/css" href="{{ asset('revolution-slider/fonts/font-awesome/css/font-awesome.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('revolution-slider/css/settings.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('revolution-slider/css/layers.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('revolution-slider/css/navigation.css')}}">
 
     <!-- YOUR CUSTOM CSS -->
-    <link href="https://rtppropertiesnc.com/css/custom.css" rel="stylesheet">
-    <link href="https://rtppropertiesnc.com/css/listing.css" rel="stylesheet">
+    <link href="{{ asset('/landing/css/custom.css" rel="stylesheet')}}">
+    <link href="{{ asset('/landing/css/listing.css" rel="stylesheet')}}">
     <!-- ALTERNATIVE COLORS CSS -->
-    <link href="https://rtppropertiesnc.com/css/testmonials.css" rel="stylesheet">
+    <link href="{{ asset('/landing/css/testmonials.css" rel="stylesheet')}}">
 <style>
 .hero-button{
 position: relative;
@@ -64,8 +64,8 @@ margin-bottom:0rem !important;
 		       <div id="preloader"><div data-loader="circle-side"></div></div><!-- /Page Preload -->
 		<div id="logo">
 			<a href="{{url('/')}}">
-				<img src="https://rtppropertiesnc.com/img/logo.png" width="15%" height="auto" alt="" class="logo_normal">
-				<img src="https://rtppropertiesnc.com/img/logo.png" width="15%" height="auto" alt="" class="logo_sticky">
+				<img src="{{ asset('/landing/img/logo.png')}}" width="15%" height="auto" alt="" class="logo_normal">
+				<img src="{{ asset('/landing/img/logo.png')}}" width="15%" height="auto" alt="" class="logo_sticky">
 			</a>
 		</div>
 		<!-- /top_menu -->
@@ -78,11 +78,11 @@ margin-bottom:0rem !important;
 		</a>
 		<nav id="menu" class="main-menu">
 			<ul class="">
-				<li class="head-hovers"><span class="span-hero"><a href="{{url('/')}}" style="color:#000 !important;"><img src="https://rtppropertiesnc.com/img/home.png"/> <br/>Home</a></span></li>	
-				<li class="head-hovers"><span class="span-hero"><a href="{{url('/about-us')}}" style="color:#000 !important;"><img src="https://rtppropertiesnc.com/img/about.png"/> <br/>About</a></span></li>
-				<li class="head-hovers" style="width:125px;"><span class="span-hero"><a href="{{url('/listing')}}" style="color:#000 !important;"><img src="https://rtppropertiesnc.com/img/listing.png"/> <br/>Rental Listings</a></span></li>
-				<li class="head-hover"><span class="span-hero"><a href="{{url('/faq')}}" style="color:#FFF !important;"><img src="https://rtppropertiesnc.com/img/faq_hover.png"/> <br/>FAQ</a></span></li>
-				<li class="head-hovers"><span class="span-hero"><a href="{{url('/contact')}}" style="color:#000 !important;"><img src="https://rtppropertiesnc.com/img/contact_us.png"/> <br/>Contact</a></span></li>
+				<li class="head-hovers"><span class="span-hero"><a href="{{url('/')}}" style="color:#000 !important;"><img src="{{ asset('/landing/img/home.png')}}"/> <br/>Home</a></span></li>	
+				<li class="head-hovers"><span class="span-hero"><a href="{{url('/about-us')}}" style="color:#000 !important;"><img src="{{ asset('/landing/img/about.png')}}"/> <br/>About</a></span></li>
+				<li class="head-hovers" style="width:125px;"><span class="span-hero"><a href="{{url('/listing')}}" style="color:#000 !important;"><img src="{{ asset('/landing/img/listing.png')}}"/> <br/>Rental Listings</a></span></li>
+				<li class="head-hovers"><span class="span-hero"><a href="{{url('/faq')}}" style="color:#000 !important;"><img src="{{ asset('/landing/img/faq.png')}}"/> <br/>FAQ</a></span></li>
+				<li class="head-hover"><span class="span-hero"><a href="{{url('/contact')}}" style="color:#FFF !important;"><img src="{{ asset('/landing/img/contact_us_hover.png')}}"/> <br/>Contact</a></span></li>
 			</ul>
 		
 		</nav>

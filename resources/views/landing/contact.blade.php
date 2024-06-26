@@ -9,27 +9,27 @@
      <title>RTP PROPERTIES NC INC Property Management</title>
 
     <!-- Favicons-->
-   <link rel="shortcut icon" href="https://rtppropertiesnc.com/img/favicon.png" type="image/x-icon">
+   <link rel="shortcut icon" href="{{ asset('/landing/img/favicon.png" type="image/x-icon')}}">
     <!-- GOOGLE WEB FONT -->
     <link rel="preconnect" href="https://fonts.gstatic.com/">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
 
     <!-- BASE CSS -->
-    <link href="https://rtppropertiesnc.com/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://rtppropertiesnc.com/css/style.css" rel="stylesheet">
-	<link href="https://rtppropertiesnc.com/css/vendors.css" rel="stylesheet">
+    <link href="{{ asset('/landing/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{ asset('/landing/css/style.css')}}" rel="stylesheet">
+	<link href="{{ asset('/landing/css/vendors.css')}}" rel="stylesheet">
 
-	<!-- REVOLUTION SLIDER CSS -->
-	<link rel="stylesheet" type="text/css" href="https://rtppropertiesnc.com/revolution-slider/fonts/font-awesome/css/font-awesome.css">
-    <link rel="stylesheet" type="text/css" href="https://rtppropertiesnc.com/revolution-slider/css/settings.css">
-    <link rel="stylesheet" type="text/css" href="https://rtppropertiesnc.com/revolution-slider/css/layers.css">
-    <link rel="stylesheet" type="text/css" href="https://rtppropertiesnc.com/revolution-slider/css/navigation.css">
+<!-- REVOLUTION SLIDER CSS -->
+	<link rel="stylesheet" type="text/css" href="{{ asset('revolution-slider/fonts/font-awesome/css/font-awesome.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('revolution-slider/css/settings.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('revolution-slider/css/layers.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('revolution-slider/css/navigation.css')}}">
 
     <!-- YOUR CUSTOM CSS -->
-    <link href="https://rtppropertiesnc.com/css/custom.css" rel="stylesheet">
-    <link href="https://rtppropertiesnc.com/css/listing.css" rel="stylesheet">
+    <link href="{{ asset('/landing/css/custom.css" rel="stylesheet')}}">
+    <link href="{{ asset('/landing/css/listing.css" rel="stylesheet')}}">
     <!-- ALTERNATIVE COLORS CSS -->
-    <link href="https://rtppropertiesnc.com/css/testmonials.css" rel="stylesheet">
+    <link href="{{ asset('/landing/css/testmonials.css" rel="stylesheet')}}">
 <style>
 .hero-button{
 position: relative;
@@ -64,8 +64,8 @@ margin-bottom:0rem !important;
 		       <div id="preloader"><div data-loader="circle-side"></div></div><!-- /Page Preload -->
 		<div id="logo">
 			<a href="{{url('/')}}">
-				<img src="https://rtppropertiesnc.com/img/logo.png" width="15%" height="auto" alt="" class="logo_normal">
-				<img src="https://rtppropertiesnc.com/img/logo.png" width="15%" height="auto" alt="" class="logo_sticky">
+				<img src="{{ asset('/landing/img/logo.png')}}" width="15%" height="auto" alt="" class="logo_normal">
+				<img src="{{ asset('/landing/img/logo.png')}}" width="15%" height="auto" alt="" class="logo_sticky">
 			</a>
 		</div>
 		<!-- /top_menu -->
@@ -78,18 +78,18 @@ margin-bottom:0rem !important;
 		</a>
 		<nav id="menu" class="main-menu">
 			<ul class="">
-				<li class="head-hovers"><span class="span-hero"><a href="{{url('/')}}" style="color:#000 !important;"><img src="https://rtppropertiesnc.com/img/home.png"/> <br/>Home</a></span></li>	
-				<li class="head-hovers"><span class="span-hero"><a href="{{url('/about-us')}}" style="color:#000 !important;"><img src="https://rtppropertiesnc.com/img/about.png"/> <br/>About</a></span></li>
-				<li class="head-hovers" style="width:125px;"><span class="span-hero"><a href="{{url('/listing')}}" style="color:#000 !important;"><img src="https://rtppropertiesnc.com/img/listing.png"/> <br/>Rental Listings</a></span></li>
-				<li class="head-hovers"><span class="span-hero"><a href="{{url('/faq')}}" style="color:#000 !important;"><img src="https://rtppropertiesnc.com/img/faq.png"/> <br/>FAQ</a></span></li>
-				<li class="head-hover"><span class="span-hero"><a href="{{url('/contact')}}" style="color:#FFF !important;"><img src="https://rtppropertiesnc.com/img/contact_us_hover.png"/> <br/>Contact</a></span></li>
+				<li class="head-hovers"><span class="span-hero"><a href="{{url('/')}}" style="color:#000 !important;"><img src="{{ asset('/landing/img/home.png')}}"/> <br/>Home</a></span></li>	
+				<li class="head-hovers"><span class="span-hero"><a href="{{url('/about-us')}}" style="color:#000 !important;"><img src="{{ asset('/landing/img/about.png')}}"/> <br/>About</a></span></li>
+				<li class="head-hovers" style="width:125px;"><span class="span-hero"><a href="{{url('/listing')}}" style="color:#000 !important;"><img src="{{ asset('/landing/img/listing.png')}}"/> <br/>Rental Listings</a></span></li>
+				<li class="head-hovers"><span class="span-hero"><a href="{{url('/faq')}}" style="color:#000 !important;"><img src="{{ asset('/landing/img/faq.png')}}"/> <br/>FAQ</a></span></li>
+				<li class="head-hover"><span class="span-hero"><a href="{{url('/contact')}}" style="color:#FFF !important;"><img src="{{ asset('/landing/img/contact_us_hover.png')}}"/> <br/>Contact</a></span></li>
 			</ul>
 		
 		</nav>
 		  </div>
 	</header>
 	<!-- /header --><main>
-		<section class="hero_in contacts" style="background: url('https://rtppropertiesnc.com/img/contact-banner.png') center center/cover no-repeat !important;">
+		<section class="hero_in contacts" style="background: url('{{ asset('/landing/img/contact-banner.png')}}') center center/cover no-repeat !important;">
 			<div class="wrapper">
 				<div class="container">
 						<h1 class="fadeInUp animated" style="margin-top:80px;"><span></span>Contact Us</h1>
@@ -233,11 +233,11 @@ margin-bottom:0rem !important;
 			<!--/row-->
 			<div class="row">
 				<div class="col-lg-12 text-center">
-						<a href="" style="margin-right: 15px;"><img src="https://rtppropertiesnc.com/img/500.png" class="img-fluid" alt=""/></a>
-							<a href="" style="margin-right: 15px;"><img src="https://rtppropertiesnc.com/img/raleigh.png" class="img-fluid" alt=""/></a>
-								<!--<a href="" style="margin-right: 15px;"><img src="https://rtppropertiesnc.com/img/cdn.png" class="img-fluid" alt=""/></a>-->
-									<!--<a href="" style="margin-right: 15px;"><img src="https://rtppropertiesnc.com/img/cdn-1.png" class="img-fluid" alt=""/></a>-->
-										<!--<a href="" style="margin-right: 15px;"><img src="https://rtppropertiesnc.com/img/cdn-2.png" class="img-fluid" alt=""/></a>-->
+						<a href="" style="margin-right: 15px;"><img src="{{ asset('/landing/img/500.png')}}" class="img-fluid" alt=""/></a>
+							<a href="" style="margin-right: 15px;"><img src="{{ asset('/landing/img/raleigh.png')}}" class="img-fluid" alt=""/></a>
+								<!--<a href="" style="margin-right: 15px;"><img src=" asset('/landing/img/cdn.png" class="img-fluid" alt=""/></a>-->
+									<!--<a href="" style="margin-right: 15px;"><img src=" asset('/landing/img/cdn-1.png" class="img-fluid" alt=""/></a>-->
+										<!--<a href="" style="margin-right: 15px;"><img src=" asset('/landing/img/cdn-2.png" class="img-fluid" alt=""/></a>-->
 				</div>
 			</div>
 			<hr>
@@ -257,23 +257,23 @@ margin-bottom:0rem !important;
 	<!-- Back to top button -->
 	
 	<!-- COMMON SCRIPTS -->
-    <script src="https://rtppropertiesnc.com/js/common_scripts.js"></script>
-    <script src="https://rtppropertiesnc.com/js/main.js"></script>
-	<script src="https://rtppropertiesnc.com/phpmailer/validate.js"></script>
+    <script src="{{ asset('/landing/js/common_scripts.js')}}"></script>
+    <script src="{{ asset('/landing/js/main.js')}}"></script>
+	<script src="{{ asset('/landing/phpmailer/validate.js')}}"></script>
 	
 <!--<script src="https://showmojo.com/iframe_v2.js"></script>-->
 	<!-- SLIDER REVOLUTION SCRIPTS  -->
-    <script src="https://rtppropertiesnc.com/revolution-slider/js/jquery.themepunch.tools.min.js"></script>
-	<script src="https://rtppropertiesnc.com/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
-	<script src="https://rtppropertiesnc.com/revolution-slider/js/extensions/revolution.extension.actions.min.js"></script>
-	<script src="https://rtppropertiesnc.com/revolution-slider/js/extensions/revolution.extension.carousel.min.js"></script>
-	<script src="https://rtppropertiesnc.com/revolution-slider/js/extensions/revolution.extension.kenburn.min.js"></script>
-	<script src="https://rtppropertiesnc.com/revolution-slider/js/extensions/revolution.extension.layeranimation.min.js"></script>
-	<script src="https://rtppropertiesnc.com/revolution-slider/js/extensions/revolution.extension.migration.min.js"></script>
-	<script src="https://rtppropertiesnc.com/revolution-slider/js/extensions/revolution.extension.navigation.min.js"></script>
-	<script src="https://rtppropertiesnc.com/revolution-slider/js/extensions/revolution.extension.parallax.min.js"></script>
-	<script src="https://rtppropertiesnc.com/revolution-slider/js/extensions/revolution.extension.slideanims.min.js"></script>
-	<script src="https://rtppropertiesnc.com/revolution-slider/js/extensions/revolution.extension.video.min.js"></script>
+    <script src="{{ asset('/landing/revolution-slider/js/jquery.themepunch.tools.min.js')}}"></script>
+	<script src="{{ asset('/landing/revolution-slider/js/jquery.themepunch.revolution.min.js')}}"></script>
+	<script src="{{ asset('/landing/revolution-slider/js/extensions/revolution.extension.actions.min.js')}}"></script>
+	<script src="{{ asset('/landing/revolution-slider/js/extensions/revolution.extension.carousel.min.js')}}"></script>
+	<script src="{{ asset('/landing/revolution-slider/js/extensions/revolution.extension.kenburn.min.js')}}"></script>
+	<script src="{{ asset('/landing/revolution-slider/js/extensions/revolution.extension.layeranimation.min.js')}}"></script>
+	<script src="{{ asset('/landing/revolution-slider/js/extensions/revolution.extension.migration.min.js')}}"></script>
+	<script src="{{ asset('/landing/revolution-slider/js/extensions/revolution.extension.navigation.min.js')}}"></script>
+	<script src="{{ asset('/landing/revolution-slider/js/extensions/revolution.extension.parallax.min.js')}}"></script>
+	<script src="{{ asset('/landing/revolution-slider/js/extensions/revolution.extension.slideanims.min.js')}}"></script>
+	<script src="{{ asset('/landing/revolution-slider/js/extensions/revolution.extension.video.min.js')}}"></script>
 	
 <script src="https://use.fontawesome.com/1744f3f671.js"></script>
 	<script>
@@ -496,7 +496,7 @@ window.onload = function() {
 	</script>
 
 	<!-- COLOR SWITCHER  -->
-    <script src="https://rtppropertiesnc.com/js/switcher.js"></script>
+    <script src="{{ asset('/landing/js/switcher.js')}}"></script>
     
     
     
@@ -613,7 +613,7 @@ function sendrequest() {
 				$('#submitting').attr('disabled','disabled');
             	$.ajax({
             		type: "POST",
-                    url: "https://rtppropertiesnc.com/send_data_contact",
+                    url: "{{ asset('/landing/send_data_contact",
                     dataType: 'text',
                     cache: false,
                     contentType: false,
@@ -721,7 +721,7 @@ function sendrequest2() {
 				$('#submitting2').attr('disabled','disabled');
             	$.ajax({
             		type: "POST",
-                    url: "https://rtppropertiesnc.com/free_rent_analysis_mail",
+                    url: "{{ asset('/landing/free_rent_analysis_mail",
                     data: { name: free_name, free_email: free_email, free_phone: free_phone,baths: baths,bed_rooms: bed_rooms,im_interested_in: im_interested_in,address: address},
             	}).done(function(response) {
             		var val=JSON.parse(response);
@@ -835,7 +835,7 @@ function sendrequest1() {
 				$('#submitting1').attr('disabled','disabled');
             	$.ajax({
             		type: "POST",
-                    url: "https://rtppropertiesnc.com/send_mail",
+                    url: "{{ asset('/landing/send_mail",
                    data: { name: name, gmail: gmail, phone: phone,description: description},
             	}).done(function(response) {
             		var val=JSON.parse(response);
