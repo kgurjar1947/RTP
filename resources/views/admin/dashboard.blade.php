@@ -116,7 +116,7 @@
                         <li class=""><a href="{{url('/home')}}"><i
                                     class="icon-home"></i><span>Dashboard</span></a></li>
 
-                                    <li ><a href="{{url('/contact')}}"><i
+                                    <li ><a href="{{url('/contact-enq')}}"><i
                                         class="icon-home"></i><span>contact Enquiry</span></a></li>
 
          

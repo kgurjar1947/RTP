@@ -36,7 +36,7 @@ Route::get('/contact', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/contact', [App\Http\Controllers\HomeController::class, 'contact'])->name('contact');
+Route::get('/contact-enq', [App\Http\Controllers\HomeController::class, 'contact'])->name('contact');
 
 
 Route::post('/listing/enquiry', [App\Http\Controllers\EnqController::class, 'listing'])->name('listing.form');
