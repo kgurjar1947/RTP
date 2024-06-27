@@ -54,8 +54,8 @@
     
 
         <div class="navbar-brand d-flex justify-content-center" style="margin-right:0px !important;padding: 9px 40px;">
-            <a href="https://appstacklabs.com/rtp_landing/dashboard"><img
-                    src="https://appstacklabs.com/rtp_landing/admin/assets/img/soukhya-health-white.png"
+            <a href="{{url('/home')}}"><img
+                    src="https://appstacklabs.com/rtp_landing/img/logo.png"
                     alt="Medx Logo" class="img-responsive logo" width="20"></a>
                         <div class="navbar-btn">
             <button type="button" class="btn-toggle-offcanvas"><i class="lnr lnr-menu fa fa-bars"></i></button>

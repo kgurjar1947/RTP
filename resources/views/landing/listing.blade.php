@@ -63,7 +63,7 @@ margin-bottom:0rem !important;
 		  <div class="container">
 		<!--       <div id="preloader"><div data-loader="circle-side"></div></div> /Page Preload -->
 		<div id="logo">
-			<a href="{{url('/')}}>
+			<a href="{{url('/')}}">
 				<img src="https://appstacklabs.com/rtp_landing/img/logo.png" width="15%" height="auto" alt="" class="logo_normal">
 				<img src="https://appstacklabs.com/rtp_landing/img/logo.png" width="15%" height="auto" alt="" class="logo_sticky">
 			</a>
