@@ -9,27 +9,27 @@
      <title>RTP PROPERTIES NC INC Property Management</title>
 
     <!-- Favicons-->
-   <link rel="shortcut icon" href="{{ asset('/landing/img/favicon.png" type="image/x-icon')}}">
+   <link rel="shortcut icon" href="https://appstacklabs.com/rtp_landing/img/favicon.png" type="image/x-icon">
     <!-- GOOGLE WEB FONT -->
     <link rel="preconnect" href="https://fonts.gstatic.com/">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
 
     <!-- BASE CSS -->
-    <link href="{{ asset('/landing/css/bootstrap.min.css')}}" rel="stylesheet">
-    <link href="{{ asset('/landing/css/style.css')}}" rel="stylesheet">
-	<link href="{{ asset('/landing/css/vendors.css')}}" rel="stylesheet">
+    <link href="https://appstacklabs.com/rtp_landing/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://appstacklabs.com/rtp_landing/css/style.css" rel="stylesheet">
+	<link href="https://appstacklabs.com/rtp_landing/css/vendors.css" rel="stylesheet">
 
-<!-- REVOLUTION SLIDER CSS -->
-	<link rel="stylesheet" type="text/css" href="{{ asset('revolution-slider/fonts/font-awesome/css/font-awesome.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('revolution-slider/css/settings.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('revolution-slider/css/layers.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('revolution-slider/css/navigation.css')}}">
+	<!-- REVOLUTION SLIDER CSS -->
+	<link rel="stylesheet" type="text/css" href="https://appstacklabs.com/rtp_landing/revolution-slider/fonts/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="https://appstacklabs.com/rtp_landing/revolution-slider/css/settings.css">
+    <link rel="stylesheet" type="text/css" href="https://appstacklabs.com/rtp_landing/revolution-slider/css/layers.css">
+    <link rel="stylesheet" type="text/css" href="https://appstacklabs.com/rtp_landing/revolution-slider/css/navigation.css">
 
     <!-- YOUR CUSTOM CSS -->
-    <link href="{{ asset('/landing/css/custom.css" rel="stylesheet')}}">
-    <link href="{{ asset('/landing/css/listing.css" rel="stylesheet')}}">
+    <link href="https://appstacklabs.com/rtp_landing/css/custom.css" rel="stylesheet">
+    <link href="https://appstacklabs.com/rtp_landing/css/listing.css" rel="stylesheet">
     <!-- ALTERNATIVE COLORS CSS -->
-    <link href="{{ asset('/landing/css/testmonials.css" rel="stylesheet')}}">
+    <link href="https://appstacklabs.com/rtp_landing/css/testmonials.css" rel="stylesheet">
 <style>
 .hero-button{
 position: relative;
@@ -61,11 +61,11 @@ margin-bottom:0rem !important;
 	<!-- whatsapp End-->
 	<header class="header menu_fixed">
 		  <div class="container">
-		       <div id="preloader"><div data-loader="circle-side"></div></div><!-- /Page Preload -->
+		<!--       <div id="preloader"><div data-loader="circle-side"></div></div> /Page Preload -->
 		<div id="logo">
-			<a href="{{url('/')}}">
-				<img src="{{ asset('/landing/img/logo.png')}}" width="15%" height="auto" alt="" class="logo_normal">
-				<img src="{{ asset('/landing/img/logo.png')}}" width="15%" height="auto" alt="" class="logo_sticky">
+			<a href="{{url('/')}}>
+				<img src="https://appstacklabs.com/rtp_landing/img/logo.png" width="15%" height="auto" alt="" class="logo_normal">
+				<img src="https://appstacklabs.com/rtp_landing/img/logo.png" width="15%" height="auto" alt="" class="logo_sticky">
 			</a>
 		</div>
 		<!-- /top_menu -->
@@ -97,7 +97,7 @@ margin-bottom:0rem !important;
                             <!-- start slide 01 -->
                             <li data-index="rs-73" data-transition="zoomout" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="2000"  data-rotate="0"  data-saveperformance="off"  data-title="01" data-param1="01" data-delay="12000" data-description="">
                                 <!-- main image -->
-                                <img src="https://rtppropertiesnc.com/revolution-slider/assets/images/slide_1.jpg" alt="" data-bgcolor="#ccc" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+                                <img src="https://appstacklabs.com/rtp_landing/revolution-slider/assets/images/slide_1.jpg" alt="" data-bgcolor="#ccc" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
 
                                 <div class="rev-slider-mask"></div> 
 
@@ -162,7 +162,7 @@ margin-bottom:0rem !important;
 
                                 <!-- btn layer -->
                                 <a class="tss tp-caption tp-resizeme rs-btn btn_1"
-                                   href="{{url('/about-us')}}"
+                                   href="https://appstacklabs.com/rtp_landing/about-us"
                                    id="slide-411-layer-03" 
                                    data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
                                    data-y="['middle','middle','middle','middle']" data-voffset="['152','130','82','80']"
@@ -178,7 +178,7 @@ margin-bottom:0rem !important;
                             <!-- start slide 02 -->
                             <li data-index="rs-74" data-transition="fadetotopfadefrombottom" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="2000"  data-rotate="0"  data-saveperformance="off"  data-title="02" data-param1="02" data-delay="12000" data-description="">
                                 <!-- main image -->
-                                <img src="https://rtppropertiesnc.com/revolution-slider/assets/images/slide_2.jpg" alt="" data-bgcolor="#ccc" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+                                <img src="https://appstacklabs.com/rtp_landing/revolution-slider/assets/images/slide_2.jpg" alt="" data-bgcolor="#ccc" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
 
                                 <div class="rev-slider-mask"></div> 
 
@@ -239,7 +239,7 @@ margin-bottom:0rem !important;
                                 </div>
                                 <!-- btn layer -->
                                 <a class="tss tp-caption tp-resizeme rs-btn btn_1"
-                                   href="{{url('/about-us')}}"
+                                   href="https://appstacklabs.com/rtp_landing/about-us"
                                    id="slide-411-layer-06" 
                                    data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
                                    data-y="['middle','middle','middle','middle']" data-voffset="['152','130','82','80']"
@@ -256,7 +256,7 @@ margin-bottom:0rem !important;
                             <!-- start slide 03 -->
                             <li data-index="rs-75" data-transition="fadetotopfadefrombottom" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="2000"  data-rotate="0"  data-saveperformance="off"  data-title="03" data-param1="03" data-delay="12000" data-description="">
                                 <!-- main image -->
-                                <img src="https://rtppropertiesnc.com/revolution-slider/assets/images/slide_3.jpg" alt="" data-bgcolor="#ccc" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+                                <img src="https://appstacklabs.com/rtp_landing/revolution-slider/assets/images/slide_3.jpg" alt="" data-bgcolor="#ccc" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
 
                                 <div class="rev-slider-mask"></div> 
 
@@ -317,7 +317,7 @@ margin-bottom:0rem !important;
                                 <!-- btn layer -->
                                 <div class="tss">
                                     <a class="tss tp-caption tp-resizeme rs-btn btn_1 mt-1"
-                                   href="{{url('/about-us')}}"
+                                   href="https://appstacklabs.com/rtp_landing/about-us"
                                    id="slide-411-layer-09" 
                                    data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
                                    data-y="['middle','middle','middle','middle']" data-voffset="['152','130','82','80']"
@@ -342,44 +342,44 @@ margin-bottom:0rem !important;
 				<!--<div class="row text-center">-->
 				<!--   <div class="col-lg-3 hero-btns" style="border-right: 1px solid #b6b3b3;border-bottom: 4px solid #bd1f2c;">-->
 				<!--	<a href="https://rtppropertiesnc.managebuilding.com/Resident/rental-application/new/apply" target="_blank">-->
-				<!--	<h6 class="text-hero">  <img src="https://rtppropertiesnc.com/img/button-icons/web.png"style="margin-right: 10px;" alt="Apply Online"/>Apply Online</h6>-->
+				<!--	<h6 class="text-hero">  <img src="https://appstacklabs.com/rtp_landing/img/button-icons/web.png"style="margin-right: 10px;" alt="Apply Online"/>Apply Online</h6>-->
 				<!--	</a>-->
 				<!--   </div>-->
 				<!--    <div class="col-lg-3 hero-btns" style="border-right: 1px solid #b6b3b3;border-bottom: 4px solid #bd1f2c;">-->
 				<!--		<a href="https://rtppropertiesnc.managebuilding.com/Resident/portal/login" target="_blank">-->
-				<!--		<h6 class="text-hero">  <img src="https://rtppropertiesnc.com/img/button-icons/house.png" style="margin-right: 10px;"alt="Apply Online"/>Resident Portal</h6>-->
+				<!--		<h6 class="text-hero">  <img src="https://appstacklabs.com/rtp_landing/img/button-icons/house.png" style="margin-right: 10px;"alt="Apply Online"/>Resident Portal</h6>-->
 				<!--		 </a>-->
 				<!--   </div>-->
 				<!--    <div class="col-lg-3 hero-btns" style="border-right: 1px solid #b6b3b3;border-bottom: 4px solid #bd1f2c;">-->
 				<!--		<a href="https://rtppropertiesnc.managebuilding.com/Resident/portal/login" target="_blank" >-->
-				<!--		 <h6 class="text-hero"> <img src="https://rtppropertiesnc.com/img/button-icons/us-dollar.png"style="margin-right: 10px;" alt="Apply Online"/>Pay Rent Online</h6>-->
+				<!--		 <h6 class="text-hero"> <img src="https://appstacklabs.com/rtp_landing/img/button-icons/us-dollar.png"style="margin-right: 10px;" alt="Apply Online"/>Pay Rent Online</h6>-->
 				<!--		 </a>-->
 				<!--   </div>-->
 				<!--   <div class="col-lg-3 hero-btns" style="border-bottom: 4px solid #bd1f2c;">-->
 				<!--		<a href="https://rtppropertiesnc.managebuilding.com/Resident/portal/login" target="_blank">-->
-				<!--		<h6 class="text-hero"> <img src="https://rtppropertiesnc.com/img/button-icons/tools.png" style="margin-right: 10px;" alt="Apply Online"/>Maintenance Request</h6>-->
+				<!--		<h6 class="text-hero"> <img src="https://appstacklabs.com/rtp_landing/img/button-icons/tools.png" style="margin-right: 10px;" alt="Apply Online"/>Maintenance Request</h6>-->
 				<!--		 </a>-->
 				<!--   </div>-->
 				<!-- </div>-->
 				<div class="row text-center">
 				 <!--  <div class="col-lg-3 hero-btns" style="border-right: 1px solid #b6b3b3;border-bottom: 4px solid #bd1f2c;">-->
 					<!--<a href="https://rtppropertiesnc.appfolio.com/rental_applications/new" target="_blank">-->
-					<!--<h6 class="text-hero">  <img src="https://rtppropertiesnc.com/img/button-icons/web.png"style="margin-right: 10px;" alt="Apply Online"/>Apply Online</h6>-->
+					<!--<h6 class="text-hero">  <img src="https://appstacklabs.com/rtp_landing/img/button-icons/web.png"style="margin-right: 10px;" alt="Apply Online"/>Apply Online</h6>-->
 					<!--</a>-->
 				 <!--  </div>-->
 				    <div class="col-lg-4 hero-btns" style="border-right: 1px solid #b6b3b3;border-bottom: 4px solid #bd1f2c;">
 						<a href="https://rtppropertiesnc.appfolio.com/connect/users/sign_in" target="_blank">
-						<h6 class="text-hero">  <img src="https://rtppropertiesnc.com/img/button-icons/house.png" style="margin-right: 10px;"alt="Apply Online"/>Resident Portal</h6>
+						<h6 class="text-hero">  <img src="https://appstacklabs.com/rtp_landing/img/button-icons/house.png" style="margin-right: 10px;"alt="Apply Online"/>Resident Portal</h6>
 						 </a>
 				   </div>
 				    <div class="col-lg-4 hero-btns" style="border-right: 1px solid #b6b3b3;border-bottom: 4px solid #bd1f2c;">
 						<a href="https://rtppropertiesnc.appfolio.com/connect/users/sign_in" target="_blank" >
-						 <h6 class="text-hero"> <img src="https://rtppropertiesnc.com/img/button-icons/us-dollar.png"style="margin-right: 10px;" alt="Apply Online"/>Pay Rent Online</h6>
+						 <h6 class="text-hero"> <img src="https://appstacklabs.com/rtp_landing/img/button-icons/us-dollar.png"style="margin-right: 10px;" alt="Apply Online"/>Pay Rent Online</h6>
 						 </a>
 				   </div>
 				   <div class="col-lg-4 hero-btns" style="border-bottom: 4px solid #bd1f2c;">
 						<a href="https://rtppropertiesnc.appfolio.com/connect/users/sign_in" target="_blank">
-						<h6 class="text-hero"> <img src="https://rtppropertiesnc.com/img/button-icons/tools.png" style="margin-right: 10px;" alt="Apply Online"/>Maintenance Request</h6>
+						<h6 class="text-hero"> <img src="https://appstacklabs.com/rtp_landing/img/button-icons/tools.png" style="margin-right: 10px;" alt="Apply Online"/>Maintenance Request</h6>
 						 </a>
 				   </div>
 				 </div>
@@ -442,7 +442,7 @@ margin-bottom:0rem !important;
 						<a class="grid_item_adventure">
 							<figure>
 								<!-- <div class="score"><strong>7.9</strong></div> -->
-								<img src="https://rtppropertiesnc.com/img/adventure_popular_1.jpg" class="img-fluid" alt="">
+								<img src="https://appstacklabs.com/rtp_landing/img/adventure_popular_1.jpg" class="img-fluid" alt="">
 								<div class="info">
 									<h2 style="color:#FFF;">Dedicated to Home Maintenance: </h2>
 									<em>We treat your property with utmost care, maintaining its quality and appeal. Our commitment ensures a valuable, well-kept investment. </em>
@@ -455,7 +455,7 @@ margin-bottom:0rem !important;
 						<a class="grid_item_adventure">
 							<figure>
 								<!-- <div class="score"><strong>9.0</strong></div> -->
-								<img src="https://rtppropertiesnc.com/img/adventure_popular_2.jpg" class="img-fluid" alt="">
+								<img src="https://appstacklabs.com/rtp_landing/img/adventure_popular_2.jpg" class="img-fluid" alt="">
 								<div class="info">
 									<h2 style="color:#FFF;">Unmatched Tenant Loyalty:  </h2>
 									<em>Through exceptional service and fostering positive relationships, we achieve an unparalleled 100% tenant retention, ensuring lasting residency. .</em>
@@ -468,7 +468,7 @@ margin-bottom:0rem !important;
 						<a class="grid_item_adventure">
 							<figure>
 								<!-- <div class="score"><strong>9.5</strong></div> -->
-								<img src="https://rtppropertiesnc.com/img/adventure_popular_3.jpg" class="img-fluid" alt="">
+								<img src="https://appstacklabs.com/rtp_landing/img/adventure_popular_3.jpg" class="img-fluid" alt="">
 								<div class="info">
 									<h2 style="color:#FFF;">Minimal Eviction Rates: </h2>
 									<em>Rigorous tenant screening and proactive management lead to remarkably low evictions. Our thorough approach fosters stability for homeowners and tenants .</em>
@@ -532,37 +532,37 @@ margin-bottom:0rem !important;
                 <div id="testim-content" class="cont">
                     
                     <div class="active">
-                        <div class="img"><img src="https://rtppropertiesnc.com/img/avatar.jpg" alt=""></div>
+                        <div class="img"><img src="https://appstacklabs.com/rtp_landing/img/avatar.jpg" alt=""></div>
                         <h2>Lisa, Property Owner</h2>
                         <p>"I've worked with many real estate agencies, but RTP Properties stands out. Their commitment to quality and their team of passionate professionals make a significant difference in the real estate industry. As a property owner, I've experienced the ease of their brokerage services. They've made my real estate endeavors effortless, and I couldn't be more satisfied with their services."</p>
                                             </div>
 
                     <div>
-                         <div class="img"><img src="https://rtppropertiesnc.com/img/avatar.jpg" alt=""></div>
+                         <div class="img"><img src="https://appstacklabs.com/rtp_landing/img/avatar.jpg" alt=""></div>
                         <h2>Sarah, Tenant</h2>
                         <p>"I can't thank RTP enough for their exceptional service request management. As a tenant, knowing that I can easily raise and track service requests gives me peace of mind. Their team is quick to respond to any maintenance issues, ensuring that my living space is well-maintained and comfortable. It's a level of service you rarely find in the real estate industry.".</p>                    
                     </div>
 
                     <div>
-                          <div class="img"><img src="https://rtppropertiesnc.com/img/avatar.jpg" alt=""></div>
+                          <div class="img"><img src="https://appstacklabs.com/rtp_landing/img/avatar.jpg" alt=""></div>
                         <h2>John, Property Owner</h2>
                         <p>"I've been a property owner for several years, and RTP Properties has been a game-changer for me. Their rent collection and disbursement system is incredibly efficient, and I always receive my rental income on time without any hassles. The platform is user-friendly, making it easy for tenants to make payments. It's a win-win situation for both property owners and tenants!"</p>                    
                     </div>
 
                     <div class="active">
-                        <div class="img"><img src="https://rtppropertiesnc.com/img/avatar.jpg" alt=""></div>
+                        <div class="img"><img src="https://appstacklabs.com/rtp_landing/img/avatar.jpg" alt=""></div>
                         <h2>Josh</h2>
                         <p>My experience with RTP Properties NC has been outstanding. From the moment I began renting through them, their professionalism and attentiveness have been consistent. The team is incredibly responsive to any queries or concerns, ensuring swift resolutions. Maintenance requests are handled promptly, and the staff is courteous and efficient. I appreciate their dedication to ensuring a comfortable living environment. Highly recommended!</p>
                                             </div>
 
                     <div>
-                         <div class="img"><img src="https://rtppropertiesnc.com/img/avatar.jpg" alt=""></div>
+                         <div class="img"><img src="https://appstacklabs.com/rtp_landing/img/avatar.jpg" alt=""></div>
                         <h2>Kathy</h2>
                         <p>RTP Properties NC has been my property management company for over a year now,& I've been generally pleased with their service.They promptly address any maintenance issues and provide regular updates on property-related matters.The staff is approachable and seems genuinely invested in maintaining tenant satisfaction. My only minor issue has been occasional delays in responses to non-urgent inquiries,but overall,I'm satisfied with their management of the property.</p>                    
                     </div>
 
                     <div>
-                          <div class="img"><img src="https://rtppropertiesnc.com/img/avatar.jpg" alt=""></div>
+                          <div class="img"><img src="https://appstacklabs.com/rtp_landing/img/avatar.jpg" alt=""></div>
                         <h2>Tannya</h2>
                         <p>RTP has been exceptional in managing the property I'm renting. Their professionalism and commitment to tenant satisfaction are evident in every interaction. Maintenance requests are handled swiftly, and the staff is friendly and approachable. Their transparent communication and proactive approach in addressing any concerns make them stand out. I'm grateful for their reliable service and highly recommend them to anyone seeking a hassle-free renting experience.</p>                    
                     </div>
@@ -577,7 +577,7 @@ margin-bottom:0rem !important;
 		<!--/call_section-->
 			<div class="container-fluid mb-0" data-cue="zoomIn">
             <div class="row wrapper d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.3)">
-                <div class="col-lg-6 text-center" style="padding:75px 10px; background-image: url('https://rtppropertiesnc.com/img/imgss-01.png'); background-size: cover;">
+                <div class="col-lg-6 text-center" style="padding:75px 10px; background-image: url('https://appstacklabs.com/rtp_landing/img/imgss-01.png'); background-size: cover;">
                   <div class="main_title_2 mt-4">
                     <span><em></em></span>
                     <h2 class="text-white mt-4">For FREE Rent Analysis</h2>
@@ -585,7 +585,7 @@ margin-bottom:0rem !important;
                     <button type="button" class="tss tp-caption tp-resizeme rs-btn btn_1 mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Click Here</button>
                   </div>
                 </div>
-                 <div class="col-lg-6 text-center" style="padding:79px 10px; background-image: url('https://rtppropertiesnc.com/img/imgss-02.png'); background-size: cover;">
+                 <div class="col-lg-6 text-center" style="padding:79px 10px; background-image: url('https://appstacklabs.com/rtp_landing/img/imgss-02.png'); background-size: cover;">
                     <div class="main_title_2 mt-4">
                         <span><em></em></span>
                         <h2 class="text-white mt-4">Looking to Buy a Property</h2>
@@ -668,18 +668,18 @@ margin-bottom:0rem !important;
 				<div class="col-lg-3 col-md-6 ms-lg-auto">
 					<h5>Useful links</h5>
 					<ul class="links">
-						<li><a href="{{url('/')}}">Home</a></li>
-						<li><a href="{{url('/about-us')}}">About Us</a></li>
-						<li><a href="{{url('/listing')}}">Rental Listing</a></li>
-						<li><a href="{{url('/faq')}}">FAQ</a></li>
-						<li><a href="{{url('/contact')}}">Contact Us</a></li>
+						<li><a href="{{url('/')}}>Home</a></li>
+						<li><a href="https://appstacklabs.com/rtp_landing/about-us">About Us</a></li>
+						<li><a href="https://appstacklabs.com/rtp_landing/listing">Rental Listing</a></li>
+						<li><a href="https://appstacklabs.com/rtp_landing/faq">FAQ</a></li>
+						<li><a href="https://appstacklabs.com/rtp_landing/contacts-us">Contact Us</a></li>
 					</ul>
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<h5>Contact with Us</h5>
 					<ul class="contacts">
-						<li><a href="https://maps.app.goo.gl/6wnaCjNCsEu4ALPi9"><i class="ti-map"></i>5535 Western Blvd , Raleigh NC 27606 </a></li>
-						<li><a href=""><i class="ti-map"></i> PO Box 21, Morrisville NC 27560</a></li>
+						<li><i class="ti-map"></i> 280 Towerview Ct , Ste 105, 106, cary NC 27513</li>
+						<!--<li><a href=""><i class="ti-map"></i> PO Box 21, Morrisville NC 27560</a></li>-->
 						<li><a href="tel:+1-877RTPRTP9"><i class="ti-mobile"></i>+1-877-RTP-RTP9 <br/><span style="margin-left: 23px;">(+1-877-787-7879)</span></a></li>
 						<li><a href="mailto:info@Panagea.com"><i class="ti-email"></i> info@rtppropertiesnc.com</a></li>
 					</ul>
@@ -688,11 +688,11 @@ margin-bottom:0rem !important;
 			<!--/row-->
 			<div class="row">
 				<div class="col-lg-12 text-center">
-						<a href="" style="margin-right: 15px;"><img src="https://rtppropertiesnc.com/img/500.png" class="img-fluid" alt=""/></a>
-							<a href="" style="margin-right: 15px;"><img src="https://rtppropertiesnc.com/img/raleigh.png" class="img-fluid" alt=""/></a>
-								<!--<a href="" style="margin-right: 15px;"><img src="https://rtppropertiesnc.com/img/cdn.png" class="img-fluid" alt=""/></a>-->
-									<!--<a href="" style="margin-right: 15px;"><img src="https://rtppropertiesnc.com/img/cdn-1.png" class="img-fluid" alt=""/></a>-->
-										<!--<a href="" style="margin-right: 15px;"><img src="https://rtppropertiesnc.com/img/cdn-2.png" class="img-fluid" alt=""/></a>-->
+						<a href="" style="margin-right: 15px;"><img src="https://appstacklabs.com/rtp_landing/img/500.png" class="img-fluid" alt=""/></a>
+							<a href="" style="margin-right: 15px;"><img src="https://appstacklabs.com/rtp_landing/img/raleigh.png" class="img-fluid" alt=""/></a>
+								<!--<a href="" style="margin-right: 15px;"><img src="https://appstacklabs.com/rtp_landing/img/cdn.png" class="img-fluid" alt=""/></a>-->
+									<!--<a href="" style="margin-right: 15px;"><img src="https://appstacklabs.com/rtp_landing/img/cdn-1.png" class="img-fluid" alt=""/></a>-->
+										<!--<a href="" style="margin-right: 15px;"><img src="https://appstacklabs.com/rtp_landing/img/cdn-2.png" class="img-fluid" alt=""/></a>-->
 				</div>
 			</div>
 			<hr>
@@ -712,23 +712,23 @@ margin-bottom:0rem !important;
 	<!-- Back to top button -->
 	
 	<!-- COMMON SCRIPTS -->
-    <script src="https://rtppropertiesnc.com/js/common_scripts.js"></script>
-    <script src="https://rtppropertiesnc.com/js/main.js"></script>
-	<script src="https://rtppropertiesnc.com/phpmailer/validate.js"></script>
+    <script src="https://appstacklabs.com/rtp_landing/js/common_scripts.js"></script>
+    <script src="https://appstacklabs.com/rtp_landing/js/main.js"></script>
+	<script src="https://appstacklabs.com/rtp_landing/phpmailer/validate.js"></script>
 	
 <!--<script src="https://showmojo.com/iframe_v2.js"></script>-->
 	<!-- SLIDER REVOLUTION SCRIPTS  -->
-    <script src="https://rtppropertiesnc.com/revolution-slider/js/jquery.themepunch.tools.min.js"></script>
-	<script src="https://rtppropertiesnc.com/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
-	<script src="https://rtppropertiesnc.com/revolution-slider/js/extensions/revolution.extension.actions.min.js"></script>
-	<script src="https://rtppropertiesnc.com/revolution-slider/js/extensions/revolution.extension.carousel.min.js"></script>
-	<script src="https://rtppropertiesnc.com/revolution-slider/js/extensions/revolution.extension.kenburn.min.js"></script>
-	<script src="https://rtppropertiesnc.com/revolution-slider/js/extensions/revolution.extension.layeranimation.min.js"></script>
-	<script src="https://rtppropertiesnc.com/revolution-slider/js/extensions/revolution.extension.migration.min.js"></script>
-	<script src="https://rtppropertiesnc.com/revolution-slider/js/extensions/revolution.extension.navigation.min.js"></script>
-	<script src="https://rtppropertiesnc.com/revolution-slider/js/extensions/revolution.extension.parallax.min.js"></script>
-	<script src="https://rtppropertiesnc.com/revolution-slider/js/extensions/revolution.extension.slideanims.min.js"></script>
-	<script src="https://rtppropertiesnc.com/revolution-slider/js/extensions/revolution.extension.video.min.js"></script>
+    <script src="https://appstacklabs.com/rtp_landing/revolution-slider/js/jquery.themepunch.tools.min.js"></script>
+	<script src="https://appstacklabs.com/rtp_landing/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
+	<script src="https://appstacklabs.com/rtp_landing/revolution-slider/js/extensions/revolution.extension.actions.min.js"></script>
+	<script src="https://appstacklabs.com/rtp_landing/revolution-slider/js/extensions/revolution.extension.carousel.min.js"></script>
+	<script src="https://appstacklabs.com/rtp_landing/revolution-slider/js/extensions/revolution.extension.kenburn.min.js"></script>
+	<script src="https://appstacklabs.com/rtp_landing/revolution-slider/js/extensions/revolution.extension.layeranimation.min.js"></script>
+	<script src="https://appstacklabs.com/rtp_landing/revolution-slider/js/extensions/revolution.extension.migration.min.js"></script>
+	<script src="https://appstacklabs.com/rtp_landing/revolution-slider/js/extensions/revolution.extension.navigation.min.js"></script>
+	<script src="https://appstacklabs.com/rtp_landing/revolution-slider/js/extensions/revolution.extension.parallax.min.js"></script>
+	<script src="https://appstacklabs.com/rtp_landing/revolution-slider/js/extensions/revolution.extension.slideanims.min.js"></script>
+	<script src="https://appstacklabs.com/rtp_landing/revolution-slider/js/extensions/revolution.extension.video.min.js"></script>
 	
 <script src="https://use.fontawesome.com/1744f3f671.js"></script>
 	<script>
@@ -951,7 +951,7 @@ window.onload = function() {
 	</script>
 
 	<!-- COLOR SWITCHER  -->
-    <script src="https://rtppropertiesnc.com/js/switcher.js"></script>
+    <script src="https://appstacklabs.com/rtp_landing/js/switcher.js"></script>
     
     
     
@@ -1062,13 +1062,13 @@ function sendrequest() {
             		$('#email1').html(' ');
             	}
             }
-			setTimeout(function(){ window.location.reload(); }, 2000);
+			//timer setTimeout(function(){ window.location.reload(); }, 2000);
 
             if(error === '' && window.errorFlag === '') {
 				$('#submitting').attr('disabled','disabled');
             	$.ajax({
             		type: "POST",
-                    url: "https://rtppropertiesnc.com/send_data_contact",
+                    url: "https://appstacklabs.com/rtp_landing/send_data_contact",
                     dataType: 'text',
                     cache: false,
                     contentType: false,
@@ -1176,7 +1176,7 @@ function sendrequest2() {
 				$('#submitting2').attr('disabled','disabled');
             	$.ajax({
             		type: "POST",
-                    url: "https://rtppropertiesnc.com/free_rent_analysis_mail",
+                    url: "https://appstacklabs.com/rtp_landing/free_rent_analysis_mail",
                     data: { name: free_name, free_email: free_email, free_phone: free_phone,baths: baths,bed_rooms: bed_rooms,im_interested_in: im_interested_in,address: address},
             	}).done(function(response) {
             		var val=JSON.parse(response);
@@ -1284,13 +1284,13 @@ function sendrequest1() {
             		$('#gmail1').html(' ');
             	}
             }
-             	setTimeout(function(){ window.location.reload(); }, 2000);
+             	//timer setTimeout(function(){ window.location.reload(); }, 2000);
 
             if(error === '') {
 				$('#submitting1').attr('disabled','disabled');
             	$.ajax({
             		type: "POST",
-                    url: "https://rtppropertiesnc.com/send_mail",
+                    url: "https://appstacklabs.com/rtp_landing/send_mail",
                    data: { name: name, gmail: gmail, phone: phone,description: description},
             	}).done(function(response) {
             		var val=JSON.parse(response);

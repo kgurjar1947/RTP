@@ -9,27 +9,27 @@
      <title>RTP PROPERTIES NC INC Property Management</title>
 
     <!-- Favicons-->
-   <link rel="shortcut icon" href="{{ asset('/landing/img/favicon.png" type="image/x-icon')}}">
+   <link rel="shortcut icon" href="https://appstacklabs.com/rtp_landing/img/favicon.png" type="image/x-icon">
     <!-- GOOGLE WEB FONT -->
     <link rel="preconnect" href="https://fonts.gstatic.com/">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
 
     <!-- BASE CSS -->
-    <link href="{{ asset('/landing/css/bootstrap.min.css')}}" rel="stylesheet">
-    <link href="{{ asset('/landing/css/style.css')}}" rel="stylesheet">
-	<link href="{{ asset('/landing/css/vendors.css')}}" rel="stylesheet">
+    <link href="https://appstacklabs.com/rtp_landing/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://appstacklabs.com/rtp_landing/css/style.css" rel="stylesheet">
+	<link href="https://appstacklabs.com/rtp_landing/css/vendors.css" rel="stylesheet">
 
-<!-- REVOLUTION SLIDER CSS -->
-	<link rel="stylesheet" type="text/css" href="{{ asset('revolution-slider/fonts/font-awesome/css/font-awesome.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('revolution-slider/css/settings.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('revolution-slider/css/layers.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('revolution-slider/css/navigation.css')}}">
+	<!-- REVOLUTION SLIDER CSS -->
+	<link rel="stylesheet" type="text/css" href="https://appstacklabs.com/rtp_landing/revolution-slider/fonts/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="https://appstacklabs.com/rtp_landing/revolution-slider/css/settings.css">
+    <link rel="stylesheet" type="text/css" href="https://appstacklabs.com/rtp_landing/revolution-slider/css/layers.css">
+    <link rel="stylesheet" type="text/css" href="https://appstacklabs.com/rtp_landing/revolution-slider/css/navigation.css">
 
     <!-- YOUR CUSTOM CSS -->
-    <link href="{{ asset('/landing/css/custom.css" rel="stylesheet')}}">
-    <link href="{{ asset('/landing/css/listing.css" rel="stylesheet')}}">
+    <link href="https://appstacklabs.com/rtp_landing/css/custom.css" rel="stylesheet">
+    <link href="https://appstacklabs.com/rtp_landing/css/listing.css" rel="stylesheet">
     <!-- ALTERNATIVE COLORS CSS -->
-    <link href="{{ asset('/landing/css/testmonials.css" rel="stylesheet')}}">
+    <link href="https://appstacklabs.com/rtp_landing/css/testmonials.css" rel="stylesheet">
 <style>
 .hero-button{
 position: relative;
@@ -61,11 +61,11 @@ margin-bottom:0rem !important;
 	<!-- whatsapp End-->
 	<header class="header menu_fixed">
 		  <div class="container">
-		       <div id="preloader"><div data-loader="circle-side"></div></div><!-- /Page Preload -->
+		<!--       <div id="preloader"><div data-loader="circle-side"></div></div> /Page Preload -->
 		<div id="logo">
-			<a href="{{url('/')}}">
-				<img src="{{ asset('/landing/img/logo.png')}}" width="15%" height="auto" alt="" class="logo_normal">
-				<img src="{{ asset('/landing/img/logo.png')}}" width="15%" height="auto" alt="" class="logo_sticky">
+			<a href="{{url('/')}}>
+				<img src="https://appstacklabs.com/rtp_landing/img/logo.png" width="15%" height="auto" alt="" class="logo_normal">
+				<img src="https://appstacklabs.com/rtp_landing/img/logo.png" width="15%" height="auto" alt="" class="logo_sticky">
 			</a>
 		</div>
 		<!-- /top_menu -->
@@ -115,7 +115,7 @@ top: 17px;
 </style>	
 <main>
 			<section class="hero_in general"
-				style="background: url('https://rtppropertiesnc.com/img/faq-banner.png') center center/cover no-repeat !important;">
+				style="background: url('https://appstacklabs.com/rtp_landing/img/faq-banner.png') center center/cover no-repeat !important;">
 				<div class="wrapper">
 					<div class="container">
 							<h1 class="fadeInUp animated" style="margin-top:100px;"><span></span>Faq Section</h1>
@@ -1089,18 +1089,18 @@ top: 17px;
 				<div class="col-lg-3 col-md-6 ms-lg-auto">
 					<h5>Useful links</h5>
 					<ul class="links">
-						<li><a href="{{url('/')}}">Home</a></li>
-						<li><a href="{{url('/about-us')}}">About Us</a></li>
-						<li><a href="{{url('/listing')}}">Rental Listing</a></li>
-						<li><a href="{{url('/faq')}}">FAQ</a></li>
-						<li><a href="{{url('/contact')}}">Contact Us</a></li>
+						<li><a href="{{url('/')}}>Home</a></li>
+						<li><a href="https://appstacklabs.com/rtp_landing/about-us">About Us</a></li>
+						<li><a href="https://appstacklabs.com/rtp_landing/listing">Rental Listing</a></li>
+						<li><a href="https://appstacklabs.com/rtp_landing/faq">FAQ</a></li>
+						<li><a href="https://appstacklabs.com/rtp_landing/contacts-us">Contact Us</a></li>
 					</ul>
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<h5>Contact with Us</h5>
 					<ul class="contacts">
-						<li><a href="https://maps.app.goo.gl/6wnaCjNCsEu4ALPi9"><i class="ti-map"></i>5535 Western Blvd , Raleigh NC 27606 </a></li>
-						<li><a href=""><i class="ti-map"></i> PO Box 21, Morrisville NC 27560</a></li>
+						<li><i class="ti-map"></i> 280 Towerview Ct , Ste 105, 106, cary NC 27513</li>
+						<!--<li><a href=""><i class="ti-map"></i> PO Box 21, Morrisville NC 27560</a></li>-->
 						<li><a href="tel:+1-877RTPRTP9"><i class="ti-mobile"></i>+1-877-RTP-RTP9 <br/><span style="margin-left: 23px;">(+1-877-787-7879)</span></a></li>
 						<li><a href="mailto:info@Panagea.com"><i class="ti-email"></i> info@rtppropertiesnc.com</a></li>
 					</ul>
@@ -1109,11 +1109,11 @@ top: 17px;
 			<!--/row-->
 			<div class="row">
 				<div class="col-lg-12 text-center">
-						<a href="" style="margin-right: 15px;"><img src="https://rtppropertiesnc.com/img/500.png" class="img-fluid" alt=""/></a>
-							<a href="" style="margin-right: 15px;"><img src="https://rtppropertiesnc.com/img/raleigh.png" class="img-fluid" alt=""/></a>
-								<!--<a href="" style="margin-right: 15px;"><img src="https://rtppropertiesnc.com/img/cdn.png" class="img-fluid" alt=""/></a>-->
-									<!--<a href="" style="margin-right: 15px;"><img src="https://rtppropertiesnc.com/img/cdn-1.png" class="img-fluid" alt=""/></a>-->
-										<!--<a href="" style="margin-right: 15px;"><img src="https://rtppropertiesnc.com/img/cdn-2.png" class="img-fluid" alt=""/></a>-->
+						<a href="" style="margin-right: 15px;"><img src="https://appstacklabs.com/rtp_landing/img/500.png" class="img-fluid" alt=""/></a>
+							<a href="" style="margin-right: 15px;"><img src="https://appstacklabs.com/rtp_landing/img/raleigh.png" class="img-fluid" alt=""/></a>
+								<!--<a href="" style="margin-right: 15px;"><img src="https://appstacklabs.com/rtp_landing/img/cdn.png" class="img-fluid" alt=""/></a>-->
+									<!--<a href="" style="margin-right: 15px;"><img src="https://appstacklabs.com/rtp_landing/img/cdn-1.png" class="img-fluid" alt=""/></a>-->
+										<!--<a href="" style="margin-right: 15px;"><img src="https://appstacklabs.com/rtp_landing/img/cdn-2.png" class="img-fluid" alt=""/></a>-->
 				</div>
 			</div>
 			<hr>
@@ -1133,23 +1133,23 @@ top: 17px;
 	<!-- Back to top button -->
 	
 	<!-- COMMON SCRIPTS -->
-    <script src="https://rtppropertiesnc.com/js/common_scripts.js"></script>
-    <script src="https://rtppropertiesnc.com/js/main.js"></script>
-	<script src="https://rtppropertiesnc.com/phpmailer/validate.js"></script>
+    <script src="https://appstacklabs.com/rtp_landing/js/common_scripts.js"></script>
+    <script src="https://appstacklabs.com/rtp_landing/js/main.js"></script>
+	<script src="https://appstacklabs.com/rtp_landing/phpmailer/validate.js"></script>
 	
 <!--<script src="https://showmojo.com/iframe_v2.js"></script>-->
 	<!-- SLIDER REVOLUTION SCRIPTS  -->
-    <script src="https://rtppropertiesnc.com/revolution-slider/js/jquery.themepunch.tools.min.js"></script>
-	<script src="https://rtppropertiesnc.com/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
-	<script src="https://rtppropertiesnc.com/revolution-slider/js/extensions/revolution.extension.actions.min.js"></script>
-	<script src="https://rtppropertiesnc.com/revolution-slider/js/extensions/revolution.extension.carousel.min.js"></script>
-	<script src="https://rtppropertiesnc.com/revolution-slider/js/extensions/revolution.extension.kenburn.min.js"></script>
-	<script src="https://rtppropertiesnc.com/revolution-slider/js/extensions/revolution.extension.layeranimation.min.js"></script>
-	<script src="https://rtppropertiesnc.com/revolution-slider/js/extensions/revolution.extension.migration.min.js"></script>
-	<script src="https://rtppropertiesnc.com/revolution-slider/js/extensions/revolution.extension.navigation.min.js"></script>
-	<script src="https://rtppropertiesnc.com/revolution-slider/js/extensions/revolution.extension.parallax.min.js"></script>
-	<script src="https://rtppropertiesnc.com/revolution-slider/js/extensions/revolution.extension.slideanims.min.js"></script>
-	<script src="https://rtppropertiesnc.com/revolution-slider/js/extensions/revolution.extension.video.min.js"></script>
+    <script src="https://appstacklabs.com/rtp_landing/revolution-slider/js/jquery.themepunch.tools.min.js"></script>
+	<script src="https://appstacklabs.com/rtp_landing/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
+	<script src="https://appstacklabs.com/rtp_landing/revolution-slider/js/extensions/revolution.extension.actions.min.js"></script>
+	<script src="https://appstacklabs.com/rtp_landing/revolution-slider/js/extensions/revolution.extension.carousel.min.js"></script>
+	<script src="https://appstacklabs.com/rtp_landing/revolution-slider/js/extensions/revolution.extension.kenburn.min.js"></script>
+	<script src="https://appstacklabs.com/rtp_landing/revolution-slider/js/extensions/revolution.extension.layeranimation.min.js"></script>
+	<script src="https://appstacklabs.com/rtp_landing/revolution-slider/js/extensions/revolution.extension.migration.min.js"></script>
+	<script src="https://appstacklabs.com/rtp_landing/revolution-slider/js/extensions/revolution.extension.navigation.min.js"></script>
+	<script src="https://appstacklabs.com/rtp_landing/revolution-slider/js/extensions/revolution.extension.parallax.min.js"></script>
+	<script src="https://appstacklabs.com/rtp_landing/revolution-slider/js/extensions/revolution.extension.slideanims.min.js"></script>
+	<script src="https://appstacklabs.com/rtp_landing/revolution-slider/js/extensions/revolution.extension.video.min.js"></script>
 	
 <script src="https://use.fontawesome.com/1744f3f671.js"></script>
 	<script>
@@ -1372,7 +1372,7 @@ window.onload = function() {
 	</script>
 
 	<!-- COLOR SWITCHER  -->
-    <script src="https://rtppropertiesnc.com/js/switcher.js"></script>
+    <script src="https://appstacklabs.com/rtp_landing/js/switcher.js"></script>
     
     
     
@@ -1483,13 +1483,13 @@ function sendrequest() {
             		$('#email1').html(' ');
             	}
             }
-			setTimeout(function(){ window.location.reload(); }, 2000);
+			//timer setTimeout(function(){ window.location.reload(); }, 2000);
 
             if(error === '' && window.errorFlag === '') {
 				$('#submitting').attr('disabled','disabled');
             	$.ajax({
             		type: "POST",
-                    url: "https://rtppropertiesnc.com/send_data_contact",
+                    url: "https://appstacklabs.com/rtp_landing/send_data_contact",
                     dataType: 'text',
                     cache: false,
                     contentType: false,
@@ -1597,7 +1597,7 @@ function sendrequest2() {
 				$('#submitting2').attr('disabled','disabled');
             	$.ajax({
             		type: "POST",
-                    url: "https://rtppropertiesnc.com/free_rent_analysis_mail",
+                    url: "https://appstacklabs.com/rtp_landing/free_rent_analysis_mail",
                     data: { name: free_name, free_email: free_email, free_phone: free_phone,baths: baths,bed_rooms: bed_rooms,im_interested_in: im_interested_in,address: address},
             	}).done(function(response) {
             		var val=JSON.parse(response);
@@ -1705,13 +1705,13 @@ function sendrequest1() {
             		$('#gmail1').html(' ');
             	}
             }
-             	setTimeout(function(){ window.location.reload(); }, 2000);
+             	//timer setTimeout(function(){ window.location.reload(); }, 2000);
 
             if(error === '') {
 				$('#submitting1').attr('disabled','disabled');
             	$.ajax({
             		type: "POST",
-                    url: "https://rtppropertiesnc.com/send_mail",
+                    url: "https://appstacklabs.com/rtp_landing/send_mail",
                    data: { name: name, gmail: gmail, phone: phone,description: description},
             	}).done(function(response) {
             		var val=JSON.parse(response);

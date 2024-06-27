@@ -9,27 +9,27 @@
      <title>RTP PROPERTIES NC INC Property Management</title>
 
     <!-- Favicons-->
-   <link rel="shortcut icon" href="{{ asset('/landing/img/favicon.png" type="image/x-icon')}}">
+   <link rel="shortcut icon" href="https://appstacklabs.com/rtp_landing/img/favicon.png" type="image/x-icon">
     <!-- GOOGLE WEB FONT -->
     <link rel="preconnect" href="https://fonts.gstatic.com/">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
 
     <!-- BASE CSS -->
-    <link href="{{ asset('/landing/css/bootstrap.min.css')}}" rel="stylesheet">
-    <link href="{{ asset('/landing/css/style.css')}}" rel="stylesheet">
-	<link href="{{ asset('/landing/css/vendors.css')}}" rel="stylesheet">
+    <link href="https://appstacklabs.com/rtp_landing/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://appstacklabs.com/rtp_landing/css/style.css" rel="stylesheet">
+	<link href="https://appstacklabs.com/rtp_landing/css/vendors.css" rel="stylesheet">
 
-<!-- REVOLUTION SLIDER CSS -->
-	<link rel="stylesheet" type="text/css" href="{{ asset('revolution-slider/fonts/font-awesome/css/font-awesome.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('revolution-slider/css/settings.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('revolution-slider/css/layers.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('revolution-slider/css/navigation.css')}}">
+	<!-- REVOLUTION SLIDER CSS -->
+	<link rel="stylesheet" type="text/css" href="https://appstacklabs.com/rtp_landing/revolution-slider/fonts/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="https://appstacklabs.com/rtp_landing/revolution-slider/css/settings.css">
+    <link rel="stylesheet" type="text/css" href="https://appstacklabs.com/rtp_landing/revolution-slider/css/layers.css">
+    <link rel="stylesheet" type="text/css" href="https://appstacklabs.com/rtp_landing/revolution-slider/css/navigation.css">
 
     <!-- YOUR CUSTOM CSS -->
-    <link href="{{ asset('/landing/css/custom.css" rel="stylesheet')}}">
-    <link href="{{ asset('/landing/css/listing.css" rel="stylesheet')}}">
+    <link href="https://appstacklabs.com/rtp_landing/css/custom.css" rel="stylesheet">
+    <link href="https://appstacklabs.com/rtp_landing/css/listing.css" rel="stylesheet">
     <!-- ALTERNATIVE COLORS CSS -->
-    <link href="{{ asset('/landing/css/testmonials.css" rel="stylesheet')}}">
+    <link href="https://appstacklabs.com/rtp_landing/css/testmonials.css" rel="stylesheet">
 <style>
 .hero-button{
 position: relative;
@@ -61,11 +61,11 @@ margin-bottom:0rem !important;
 	<!-- whatsapp End-->
 	<header class="header menu_fixed">
 		  <div class="container">
-		       <div id="preloader"><div data-loader="circle-side"></div></div><!-- /Page Preload -->
+		<!--       <div id="preloader"><div data-loader="circle-side"></div></div> /Page Preload -->
 		<div id="logo">
 			<a href="{{url('/')}}">
-				<img src="{{ asset('/landing/img/logo.png')}}" width="15%" height="auto" alt="" class="logo_normal">
-				<img src="{{ asset('/landing/img/logo.png')}}" width="15%" height="auto" alt="" class="logo_sticky">
+				<img src="https://appstacklabs.com/rtp_landing/img/logo.png" width="15%" height="auto" alt="" class="logo_normal">
+				<img src="https://appstacklabs.com/rtp_landing/img/logo.png" width="15%" height="auto" alt="" class="logo_sticky">
 			</a>
 		</div>
 		<!-- /top_menu -->
@@ -89,7 +89,7 @@ margin-bottom:0rem !important;
 		  </div>
 	</header>
 	<!-- /header --><main>
-		<section class="hero_in contacts" style="background: url('{{ asset('/landing/img/contact-banner.png')}}') center center/cover no-repeat !important;">
+		<section class="hero_in contacts" style="background: url('https://appstacklabs.com/rtp_landing/img/contact-banner.png') center center/cover no-repeat !important;">
 			<div class="wrapper">
 				<div class="container">
 						<h1 class="fadeInUp animated" style="margin-top:80px;"><span></span>Contact Us</h1>
@@ -104,12 +104,12 @@ margin-bottom:0rem !important;
 					<li>
 						<i class="pe-7s-map-marker"></i>
 						<h4>Address</h4>
-						<span><a style="color:#FFF;" href="https://maps.app.goo.gl/6wnaCjNCsEu4ALPi9" target="_blank">5535 Western Blvd , Raleigh NC 27606 <br/>PO Box 21, Morrisville NC 27560</a></span>
+						<span><a style="color:#FFF;" href="https://maps.app.goo.gl/xV3aoWdeAnccf9Sp6" target="_blank">280 Towerview Ct , Ste 105, 106, <br/>cary NC 27513</a></span>
 					</li>
 					<li>
 						<i class="pe-7s-mail-open-file"></i>
 						<h4>Email address</h4>
-						<span><a style="color:#FFF;" href="mailto:rtprealtync@gmail.com">rtprealtync@gmail.com</a><br><small><a style="color:#FFF;" href="mailto:info@rtppropertiesnc.com">info@rtppropertiesnc.com</a></small></span>
+						<span><a style="color:#FFF;" href="mailto:rtprealtync@gmail.com">rtprealtync@gmail.com</a><br><a style="color:#FFF;" href="mailto:info@rtppropertiesnc.com">info@rtppropertiesnc.com</a></span>
 
 					</li>
 					<li>
@@ -128,19 +128,19 @@ margin-bottom:0rem !important;
 			<div class="container margin_80_55">
 				<div class="row justify-content-between">
 					<div class="col-lg-6">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3236.603182856487!2d-78.72220082535765!3d35.78512272426195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89acf45ca949a2a1%3A0x8a4081976d794c7a!2s5535%20Western%20Blvd%2C%20Raleigh%2C%20NC%2027606%2C%20USA!5e0!3m2!1sen!2sin!4v1710947175901!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-					</div>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3235.8799859576698!2d-78.81672392509856!3d35.80287952328332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89acf24049fa3067%3A0x11184736994e46f0!2s280%20Towerview%20Ct%20105%20106%2C%20Cary%2C%20NC%2027513%2C%20USA!5e0!3m2!1sen!2sin!4v1719311437375!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
 
 					<div class="col-lg-6">
 						<h4>Send us a message</h4>
 						<div id="message-contact"></div>
-						<form method="post" action="{{route('contact.form')}}">
-                            @csrf
+						<form method="post" action="{{ route('contact.form')}}" autocomplete="off">
+							@csrf
 							<div class="row">
 								<div class="col-md-12">
 									<div class="form-group">
 										<label>Name</label>
-										<input class="form-control" type="text" name="fname" id="full_name" >
+										<input class="form-control" type="text" name="full_name" id="full_name" >
 									</div>
 									<span id="full_name1" style="color:red;"></span>
 								</div>
@@ -183,7 +183,7 @@ margin-bottom:0rem !important;
 									<span id="message1" style="color:red;"></span>
 							</div>
 						
-						<button type="submit" value="Submit" class="btn_1 rounded" >Submit</button>
+						<button type="submit" value="Submit" class="btn_1 rounded">Submit</button>
 						</form>
 						 <div class="success1" id="error"></div>
 					</div>
@@ -213,18 +213,18 @@ margin-bottom:0rem !important;
 				<div class="col-lg-3 col-md-6 ms-lg-auto">
 					<h5>Useful links</h5>
 					<ul class="links">
-						<li><a href="{{url('/')}}">Home</a></li>
-						<li><a href="{{url('/about-us')}}">About Us</a></li>
-						<li><a href="{{url('/listing')}}">Rental Listing</a></li>
-						<li><a href="{{url('/faq')}}">FAQ</a></li>
-						<li><a href="{{url('/contact')}}">Contact Us</a></li>
+						<li><a href="{{url('/')}}>Home</a></li>
+						<li><a href="https://appstacklabs.com/rtp_landing/about-us">About Us</a></li>
+						<li><a href="https://appstacklabs.com/rtp_landing/listing">Rental Listing</a></li>
+						<li><a href="https://appstacklabs.com/rtp_landing/faq">FAQ</a></li>
+						<li><a href="https://appstacklabs.com/rtp_landing/contacts-us">Contact Us</a></li>
 					</ul>
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<h5>Contact with Us</h5>
 					<ul class="contacts">
-						<li><a href="https://maps.app.goo.gl/6wnaCjNCsEu4ALPi9"><i class="ti-map"></i>5535 Western Blvd , Raleigh NC 27606 </a></li>
-						<li><a href=""><i class="ti-map"></i> PO Box 21, Morrisville NC 27560</a></li>
+						<li><i class="ti-map"></i> 280 Towerview Ct , Ste 105, 106, cary NC 27513</li>
+						<!--<li><a href=""><i class="ti-map"></i> PO Box 21, Morrisville NC 27560</a></li>-->
 						<li><a href="tel:+1-877RTPRTP9"><i class="ti-mobile"></i>+1-877-RTP-RTP9 <br/><span style="margin-left: 23px;">(+1-877-787-7879)</span></a></li>
 						<li><a href="mailto:info@Panagea.com"><i class="ti-email"></i> info@rtppropertiesnc.com</a></li>
 					</ul>
@@ -233,11 +233,11 @@ margin-bottom:0rem !important;
 			<!--/row-->
 			<div class="row">
 				<div class="col-lg-12 text-center">
-						<a href="" style="margin-right: 15px;"><img src="{{ asset('/landing/img/500.png')}}" class="img-fluid" alt=""/></a>
-							<a href="" style="margin-right: 15px;"><img src="{{ asset('/landing/img/raleigh.png')}}" class="img-fluid" alt=""/></a>
-								<!--<a href="" style="margin-right: 15px;"><img src=" asset('/landing/img/cdn.png" class="img-fluid" alt=""/></a>-->
-									<!--<a href="" style="margin-right: 15px;"><img src=" asset('/landing/img/cdn-1.png" class="img-fluid" alt=""/></a>-->
-										<!--<a href="" style="margin-right: 15px;"><img src=" asset('/landing/img/cdn-2.png" class="img-fluid" alt=""/></a>-->
+						<a href="" style="margin-right: 15px;"><img src="https://appstacklabs.com/rtp_landing/img/500.png" class="img-fluid" alt=""/></a>
+							<a href="" style="margin-right: 15px;"><img src="https://appstacklabs.com/rtp_landing/img/raleigh.png" class="img-fluid" alt=""/></a>
+								<!--<a href="" style="margin-right: 15px;"><img src="https://appstacklabs.com/rtp_landing/img/cdn.png" class="img-fluid" alt=""/></a>-->
+									<!--<a href="" style="margin-right: 15px;"><img src="https://appstacklabs.com/rtp_landing/img/cdn-1.png" class="img-fluid" alt=""/></a>-->
+										<!--<a href="" style="margin-right: 15px;"><img src="https://appstacklabs.com/rtp_landing/img/cdn-2.png" class="img-fluid" alt=""/></a>-->
 				</div>
 			</div>
 			<hr>
@@ -257,23 +257,23 @@ margin-bottom:0rem !important;
 	<!-- Back to top button -->
 	
 	<!-- COMMON SCRIPTS -->
-    <script src="{{ asset('/landing/js/common_scripts.js')}}"></script>
-    <script src="{{ asset('/landing/js/main.js')}}"></script>
-	<script src="{{ asset('/landing/phpmailer/validate.js')}}"></script>
+    <script src="https://appstacklabs.com/rtp_landing/js/common_scripts.js"></script>
+    <script src="https://appstacklabs.com/rtp_landing/js/main.js"></script>
+	<script src="https://appstacklabs.com/rtp_landing/phpmailer/validate.js"></script>
 	
 <!--<script src="https://showmojo.com/iframe_v2.js"></script>-->
 	<!-- SLIDER REVOLUTION SCRIPTS  -->
-    <script src="{{ asset('/landing/revolution-slider/js/jquery.themepunch.tools.min.js')}}"></script>
-	<script src="{{ asset('/landing/revolution-slider/js/jquery.themepunch.revolution.min.js')}}"></script>
-	<script src="{{ asset('/landing/revolution-slider/js/extensions/revolution.extension.actions.min.js')}}"></script>
-	<script src="{{ asset('/landing/revolution-slider/js/extensions/revolution.extension.carousel.min.js')}}"></script>
-	<script src="{{ asset('/landing/revolution-slider/js/extensions/revolution.extension.kenburn.min.js')}}"></script>
-	<script src="{{ asset('/landing/revolution-slider/js/extensions/revolution.extension.layeranimation.min.js')}}"></script>
-	<script src="{{ asset('/landing/revolution-slider/js/extensions/revolution.extension.migration.min.js')}}"></script>
-	<script src="{{ asset('/landing/revolution-slider/js/extensions/revolution.extension.navigation.min.js')}}"></script>
-	<script src="{{ asset('/landing/revolution-slider/js/extensions/revolution.extension.parallax.min.js')}}"></script>
-	<script src="{{ asset('/landing/revolution-slider/js/extensions/revolution.extension.slideanims.min.js')}}"></script>
-	<script src="{{ asset('/landing/revolution-slider/js/extensions/revolution.extension.video.min.js')}}"></script>
+    <script src="https://appstacklabs.com/rtp_landing/revolution-slider/js/jquery.themepunch.tools.min.js"></script>
+	<script src="https://appstacklabs.com/rtp_landing/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
+	<script src="https://appstacklabs.com/rtp_landing/revolution-slider/js/extensions/revolution.extension.actions.min.js"></script>
+	<script src="https://appstacklabs.com/rtp_landing/revolution-slider/js/extensions/revolution.extension.carousel.min.js"></script>
+	<script src="https://appstacklabs.com/rtp_landing/revolution-slider/js/extensions/revolution.extension.kenburn.min.js"></script>
+	<script src="https://appstacklabs.com/rtp_landing/revolution-slider/js/extensions/revolution.extension.layeranimation.min.js"></script>
+	<script src="https://appstacklabs.com/rtp_landing/revolution-slider/js/extensions/revolution.extension.migration.min.js"></script>
+	<script src="https://appstacklabs.com/rtp_landing/revolution-slider/js/extensions/revolution.extension.navigation.min.js"></script>
+	<script src="https://appstacklabs.com/rtp_landing/revolution-slider/js/extensions/revolution.extension.parallax.min.js"></script>
+	<script src="https://appstacklabs.com/rtp_landing/revolution-slider/js/extensions/revolution.extension.slideanims.min.js"></script>
+	<script src="https://appstacklabs.com/rtp_landing/revolution-slider/js/extensions/revolution.extension.video.min.js"></script>
 	
 <script src="https://use.fontawesome.com/1744f3f671.js"></script>
 	<script>
@@ -496,7 +496,7 @@ window.onload = function() {
 	</script>
 
 	<!-- COLOR SWITCHER  -->
-    <script src="{{ asset('/landing/js/switcher.js')}}"></script>
+    <script src="https://appstacklabs.com/rtp_landing/js/switcher.js"></script>
     
     
     
@@ -607,13 +607,13 @@ function sendrequest() {
             		$('#email1').html(' ');
             	}
             }
-			setTimeout(function(){ window.location.reload(); }, 2000);
-
+			//timer setTimeout(function(){ window.location.reload(); }, 2000);
+// 
             if(error === '' && window.errorFlag === '') {
 				$('#submitting').attr('disabled','disabled');
             	$.ajax({
             		type: "POST",
-                    url: "{{ asset('/landing/send_data_contact",
+                    url: "https://appstacklabs.com/rtp_landing/send_data_contact",
                     dataType: 'text',
                     cache: false,
                     contentType: false,
@@ -721,7 +721,7 @@ function sendrequest2() {
 				$('#submitting2').attr('disabled','disabled');
             	$.ajax({
             		type: "POST",
-                    url: "{{ asset('/landing/free_rent_analysis_mail",
+                    url: "https://appstacklabs.com/rtp_landing/free_rent_analysis_mail",
                     data: { name: free_name, free_email: free_email, free_phone: free_phone,baths: baths,bed_rooms: bed_rooms,im_interested_in: im_interested_in,address: address},
             	}).done(function(response) {
             		var val=JSON.parse(response);
@@ -829,13 +829,13 @@ function sendrequest1() {
             		$('#gmail1').html(' ');
             	}
             }
-             	setTimeout(function(){ window.location.reload(); }, 2000);
+             	//timer setTimeout(function(){ window.location.reload(); }, 2000);
 
             if(error === '') {
 				$('#submitting1').attr('disabled','disabled');
             	$.ajax({
             		type: "POST",
-                    url: "{{ asset('/landing/send_mail",
+                    url: "https://appstacklabs.com/rtp_landing/send_mail",
                    data: { name: name, gmail: gmail, phone: phone,description: description},
             	}).done(function(response) {
             		var val=JSON.parse(response);

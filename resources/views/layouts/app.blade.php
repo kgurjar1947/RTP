@@ -62,7 +62,6 @@ margin-bottom:0rem !important;
 		  </div>
 		</a>
 	  </div>
-      @include('landing/include/header')
 	<!-- whatsapp End-->
     <div id="app">
 
