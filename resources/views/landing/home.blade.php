@@ -63,7 +63,7 @@ margin-bottom:0rem !important;
 		  <div class="container">
 		<!--       <div id="preloader"><div data-loader="circle-side"></div></div> /Page Preload -->
 		<div id="logo">
-			<a href="{{url('/')}}>
+			<a href="{{url('/')}}">
 				<img src="https://appstacklabs.com/rtp_landing/img/logo.png" width="15%" height="auto" alt="" class="logo_normal">
 				<img src="https://appstacklabs.com/rtp_landing/img/logo.png" width="15%" height="auto" alt="" class="logo_sticky">
 			</a>
@@ -668,7 +668,7 @@ margin-bottom:0rem !important;
 				<div class="col-lg-3 col-md-6 ms-lg-auto">
 					<h5>Useful links</h5>
 					<ul class="links">
-						<li><a href="{{url('/')}}>Home</a></li>
+						<li><a href="{{url('/')}}">Home</a></li>
 						<li><a href="https://appstacklabs.com/rtp_landing/about-us">About Us</a></li>
 						<li><a href="https://appstacklabs.com/rtp_landing/listing">Rental Listing</a></li>
 						<li><a href="https://appstacklabs.com/rtp_landing/faq">FAQ</a></li>

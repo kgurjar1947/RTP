@@ -468,7 +468,7 @@ document.getElementById('contactform').addEventListener('submit', function(event
 				<div class="col-lg-3 col-md-6 ms-lg-auto">
 					<h5>Useful links</h5>
 					<ul class="links">
-						<li><a href="{{url('/')}}>Home</a></li>
+						<li><a href="{{url('/')}}">Home</a></li>
 						<li><a href="https://appstacklabs.com/rtp_landing/about-us">About Us</a></li>
 						<li><a href="https://appstacklabs.com/rtp_landing/listing">Rental Listing</a></li>
 						<li><a href="https://appstacklabs.com/rtp_landing/faq">FAQ</a></li>
