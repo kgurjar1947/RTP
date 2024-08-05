@@ -79,10 +79,10 @@ margin-bottom:0rem !important;
 		<nav id="menu" class="main-menu">
 			<ul class="">
 				<li class="head-hovers"><span class="span-hero"><a href="{{url('/')}}" style="color:#000 !important;"><img src="{{ asset('/landing/img/home.png')}}"/> <br/>Home</a></span></li>	
-				<li class="head-hovers"><span class="span-hero"><a href="{{url('/about-us')}}" style="color:#000 !important;"><img src="{{ asset('/landing/img/about.png')}}"/> <br/>About</a></span></li>
+				<li class="head-hover"><span class="span-hero"><a href="{{url('/about-us')}}" style="color:#FFF !important;"><img src="{{ asset('/landing/img/about_hover.png')}}"/> <br/>About</a></span></li>
 				<li class="head-hovers" style="width:125px;"><span class="span-hero"><a href="{{url('/listing')}}" style="color:#000 !important;"><img src="{{ asset('/landing/img/listing.png')}}"/> <br/>Rental Listings</a></span></li>
 				<li class="head-hovers"><span class="span-hero"><a href="{{url('/faq')}}" style="color:#000 !important;"><img src="{{ asset('/landing/img/faq.png')}}"/> <br/>FAQ</a></span></li>
-				<li class="head-hover"><span class="span-hero"><a href="{{url('/contact')}}" style="color:#FFF !important;"><img src="{{ asset('/landing/img/contact_us_hover.png')}}"/> <br/>Contact</a></span></li>
+				<li class="head-hovers"><span class="span-hero"><a href="{{url('/contact')}}" style="color:#000 !important;"><img src="{{ asset('/landing/img/contact_us.png')}}"/> <br/>Contact</a></span></li>
 			</ul>
 		
 		</nav>
@@ -167,28 +167,41 @@ margin-bottom:0rem !important;
 						<p>Owner/Broker in charge & Property Manager.</p>
 					</a>
 				</div>
+				<!--<div class="col-lg-3 col-md-6">-->
+				<!--    	<img src="https://appstacklabs.com/rtp_landing/img/noah-yetter.jpg" class="img-fluid" alt="" style="width: 100%;">-->
+				<!--	<a class="box_feat" style="padding: 20px 10px !important;height:142px;">-->
+				<!--		<h3>Noah Yetter </h3>-->
+				<!--		<p>Leasing Specialist.</p>-->
+				<!--	</a>-->
+				<!--</div>-->
 				<div class="col-lg-3 col-md-6">
 				    	<img src="https://appstacklabs.com/rtp_landing/img/avatar.jpg" class="img-fluid" alt="" style="width: 100%;">
 					<a class="box_feat" style="padding: 20px 10px !important;height:142px;">
-						<h3>Daniel Spheekas </h3>
-						<p>Account Manager. </p>
+						<h3>Travis Hellermann</h3>
+						<p> Sr. Property Manager </p>
 					</a>
 				</div>
-				<div class="col-lg-3 col-md-6">
-				    	<img src="https://appstacklabs.com/rtp_landing/img/noah-yetter.jpg" class="img-fluid" alt="" style="width: 100%;">
+					<div class="col-lg-3 col-md-6">
+				    	<img src="https://appstacklabs.com/rtp_landing/img/avatar.jpg" class="img-fluid" alt="" style="width: 100%;">
 					<a class="box_feat" style="padding: 20px 10px !important;height:142px;">
-						<h3>Noah Yetter </h3>
-						<p>Leasing Specialist.</p>
+						<h3>Nicole Eberhardt</h3>
+						<p>Assistant Property Manager</p>
 					</a>
 				</div>
 				<div class="col-lg-3 col-md-6">
 				    	<img src="https://appstacklabs.com/rtp_landing/img/avatar.jpg" class="img-fluid" alt="" style="width: 100%;">
 					<a class="box_feat" style="padding: 20px 10px !important;height:142px;">
-						<h3>Nicole Eberhardt    </h3>
-						<p>Customer Service , Maintenance Coordinator. </p>
+						<h3>Mykaelyn John </h3>
+						<p>Admin Assistant</p>
 					</a>
 				</div>
-				
+				<!--<div class="col-lg-3 col-md-6">-->
+				<!--    	<img src="https://appstacklabs.com/rtp_landing/img/avatar.jpg" class="img-fluid" alt="" style="width: 100%;">-->
+				<!--	<a class="box_feat" style="padding: 20px 10px !important;height:142px;">-->
+				<!--		<h3>Christopher Farias</h3>-->
+				<!--		<p>Marketing and Social Media Specialist</p>-->
+				<!--	</a>-->
+				<!--</div>-->
 			</div>
 			<!--/row-->
 		</div>
@@ -206,9 +219,9 @@ margin-bottom:0rem !important;
 					<div class="follow_us">
 						<ul>
 							<li>Follow us</li>
-							<li><a href="#0"><i class="ti-facebook"></i></a></li>
-							<li><a href="#0"><i class="ti-instagram"></i></a></li>
-								<li><a href="#0"><i class="fa-icon-linkedin-square"></i></a></li>
+						<li><a href="#0"><i class="fa-icon-facebook-square"></i></a></li>
+                        <li><a href="#0"><i class="fa-icon-instagram"></i></a></li>
+                            <li><a href="#0"><i class="fa-icon-linkedin-square"></i></a></li>
 						</ul>
 					</div>
 				</div>

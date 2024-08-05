@@ -30,6 +30,8 @@
     <link href="https://appstacklabs.com/rtp_landing/css/listing.css" rel="stylesheet">
     <!-- ALTERNATIVE COLORS CSS -->
     <link href="https://appstacklabs.com/rtp_landing/css/testmonials.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <style>
 .hero-button{
 position: relative;
@@ -78,11 +80,11 @@ margin-bottom:0rem !important;
 		</a>
 		<nav id="menu" class="main-menu">
 			<ul class="">
-				<li class="head-hovers"><span class="span-hero"><a href="{{url('/')}}" style="color:#000 !important;"><img src="{{ asset('/landing/img/home.png')}}"/> <br/>Home</a></span></li>	
+				<li class="head-hover"><span class="span-hero"><a href="{{url('/')}}" style="color:#FFF !important;"><img src="{{ asset('/landing/img/home_hover.png')}}"/> <br/>Home</a></span></li>	
 				<li class="head-hovers"><span class="span-hero"><a href="{{url('/about-us')}}" style="color:#000 !important;"><img src="{{ asset('/landing/img/about.png')}}"/> <br/>About</a></span></li>
 				<li class="head-hovers" style="width:125px;"><span class="span-hero"><a href="{{url('/listing')}}" style="color:#000 !important;"><img src="{{ asset('/landing/img/listing.png')}}"/> <br/>Rental Listings</a></span></li>
 				<li class="head-hovers"><span class="span-hero"><a href="{{url('/faq')}}" style="color:#000 !important;"><img src="{{ asset('/landing/img/faq.png')}}"/> <br/>FAQ</a></span></li>
-				<li class="head-hover"><span class="span-hero"><a href="{{url('/contact')}}" style="color:#FFF !important;"><img src="{{ asset('/landing/img/contact_us_hover.png')}}"/> <br/>Contact</a></span></li>
+				<li class="head-hovers"><span class="span-hero"><a href="{{url('/contact')}}" style="color:#000 !important;"><img src="{{ asset('/landing/img/contact_us.png')}}"/> <br/>Contact</a></span></li>
 			</ul>
 		
 		</nav>
@@ -162,7 +164,7 @@ margin-bottom:0rem !important;
 
                                 <!-- btn layer -->
                                 <a class="tss tp-caption tp-resizeme rs-btn btn_1"
-                                   href="https://appstacklabs.com/rtp_landing/about-us"
+                                   href="https://rtppropertiesnc.com/about-us"
                                    id="slide-411-layer-03" 
                                    data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
                                    data-y="['middle','middle','middle','middle']" data-voffset="['152','130','82','80']"
@@ -239,7 +241,7 @@ margin-bottom:0rem !important;
                                 </div>
                                 <!-- btn layer -->
                                 <a class="tss tp-caption tp-resizeme rs-btn btn_1"
-                                   href="https://appstacklabs.com/rtp_landing/about-us"
+                                   href="https://rtppropertiesnc.com/about-us"
                                    id="slide-411-layer-06" 
                                    data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
                                    data-y="['middle','middle','middle','middle']" data-voffset="['152','130','82','80']"
@@ -317,7 +319,7 @@ margin-bottom:0rem !important;
                                 <!-- btn layer -->
                                 <div class="tss">
                                     <a class="tss tp-caption tp-resizeme rs-btn btn_1 mt-1"
-                                   href="https://appstacklabs.com/rtp_landing/about-us"
+                                   href="https://rtppropertiesnc.com/about-us"
                                    id="slide-411-layer-09" 
                                    data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
                                    data-y="['middle','middle','middle','middle']" data-voffset="['152','130','82','80']"
@@ -398,37 +400,37 @@ margin-bottom:0rem !important;
 				<!-- /row -->
 			</div>
 			</div>
-		<!--<section class="container container-custom margin_80_0" style="background:#f3f3f3 !important;">-->
-  <!--          <div class="container">-->
-  <!--               <div class="row">-->
-		<!--			   <div class="col-lg-12">-->
-		<!--			        <iframe class="showmojo-listings" style="border: 0px; width: 100%; height:750px;" name="ShowMojoListingFrame" scrolling="yes" frameborder="0" marginheight="0px" marginwidth="0px" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" src="https://showmojo.com/491c33f039/listings/mapsearch"></iframe>-->
-		<!--			   </div>-->
-		<!--		 </div>-->
-  <!--          </div>-->
-  <!--      </section>-->
-  	<section class="container container-custom margin_80_0" style="background:#f3f3f3 !important;">
+		<section class="container container-custom margin_80_0" style="background:#f3f3f3 !important;">
             <div class="container">
                  <div class="row">
 					   <div class="col-lg-12">
-					       <script type='text/javascript' charset='utf-8'>
-  document.write(unescape("%3Cscript src='" + (('https:' == document.location.protocol) ? 'https:' : 'http:') + "//rtppropertiesnc.appfolio.com/javascripts/listing.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-
-<script type='text/javascript' charset='utf-8'>
-  Appfolio.Listing({
-    hostUrl: 'rtppropertiesnc.appfolio.com',
-    //propertyGroup: 'My Group Name',
-    themeColor: '#676767',
-    height: '1200px',
-    width: '100%',
-    defaultOrder: 'date_posted'
-  });
-</script>
-					      </div>
+					        <iframe class="showmojo-listings" style="border: 0px; width: 100%; height:800px;" name="ShowMojoListingFrame" scrolling="yes" frameborder="0" marginheight="0px" marginwidth="0px" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" src="https://showmojo.com/491c33f039/listings/mapsearch"></iframe>
+					   </div>
 				 </div>
             </div>
         </section>
+<!--  	<section class="container container-custom margin_80_0" style="background:#f3f3f3 !important;">-->
+<!--            <div class="container">-->
+<!--                 <div class="row">-->
+<!--					   <div class="col-lg-12">-->
+<!--					       <script type='text/javascript' charset='utf-8'>-->
+<!--  document.write(unescape("%3Cscript src='" + (('https:' == document.location.protocol) ? 'https:' : 'http:') + "//rtppropertiesnc.appfolio.com/javascripts/listing.js' type='text/javascript'%3E%3C/script%3E"));-->
+<!--</script>-->
+
+<!--<script type='text/javascript' charset='utf-8'>-->
+<!--  Appfolio.Listing({-->
+<!--    hostUrl: 'rtppropertiesnc.appfolio.com',-->
+    <!--//propertyGroup: 'My Group Name',-->
+<!--    themeColor: '#676767',-->
+<!--    height: '1200px',-->
+<!--    width: '100%',-->
+<!--    defaultOrder: 'date_posted'-->
+<!--  });-->
+<!--</script>-->
+<!--					      </div>-->
+<!--				 </div>-->
+<!--            </div>-->
+<!--        </section>-->
 		<section class="call_section" style="margin-top:55px;background:#FFF !important;">
            <div class="container container-custom margin_80_55">
 		<section class="add_bottom_45">
@@ -659,9 +661,9 @@ margin-bottom:0rem !important;
 					<div class="follow_us">
 						<ul>
 							<li>Follow us</li>
-							<li><a href="#0"><i class="ti-facebook"></i></a></li>
-							<li><a href="#0"><i class="ti-instagram"></i></a></li>
-								<li><a href="#0"><i class="fa-icon-linkedin-square"></i></a></li>
+							<li><a href="#0"><i class="fa-icon-facebook-square"></i></a></li>
+                        <li><a href="#0"><i class="fa-icon-instagram"></i></a></li>
+                            <li><a href="#0"><i class="fa-icon-linkedin-square"></i></a></li>
 						</ul>
 					</div>
 				</div>

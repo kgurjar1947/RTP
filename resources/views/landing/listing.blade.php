@@ -80,9 +80,9 @@ margin-bottom:0rem !important;
 			<ul class="">
 				<li class="head-hovers"><span class="span-hero"><a href="{{url('/')}}" style="color:#000 !important;"><img src="{{ asset('/landing/img/home.png')}}"/> <br/>Home</a></span></li>	
 				<li class="head-hovers"><span class="span-hero"><a href="{{url('/about-us')}}" style="color:#000 !important;"><img src="{{ asset('/landing/img/about.png')}}"/> <br/>About</a></span></li>
-				<li class="head-hovers" style="width:125px;"><span class="span-hero"><a href="{{url('/listing')}}" style="color:#000 !important;"><img src="{{ asset('/landing/img/listing.png')}}"/> <br/>Rental Listings</a></span></li>
+				<li class="head-hover" style="width:125px;"><span class="span-hero"><a href="{{url('/listing')}}" style="color:#FFF !important;"><img src="{{ asset('/landing/img/listing_hover.png')}}"/> <br/>Rental Listings</a></span></li>
 				<li class="head-hovers"><span class="span-hero"><a href="{{url('/faq')}}" style="color:#000 !important;"><img src="{{ asset('/landing/img/faq.png')}}"/> <br/>FAQ</a></span></li>
-				<li class="head-hover"><span class="span-hero"><a href="{{url('/contact')}}" style="color:#FFF !important;"><img src="{{ asset('/landing/img/contact_us_hover.png')}}"/> <br/>Contact</a></span></li>
+				<li class="head-hovers"><span class="span-hero"><a href="{{url('/contact')}}" style="color:#000 !important;"><img src="{{ asset('/landing/img/contact_us.png')}}"/> <br/>Contact</a></span></li>
 			</ul>
 		
 		</nav>
@@ -168,39 +168,39 @@ margin-bottom:0rem !important;
 				<!-- /row -->
 		<!--	</div>-->
 		<!--</div>-->
-		<!--<section class="container-fluid" style="background:#f3f3f3 !important;width:100%;margin-bottom:100px;">-->
-		<!--	<div class="">-->
-		<!--		<div class="row">-->
-		<!--			<div class="col-lg-12">-->
-		<!--				<iframe class="showmojo-listings" style="border:0px;height: 650px;width:100%;" name="ShowMojoListingFrame"-->
-		<!--					scrolling="yes" frameborder="0" marginheight="0px" marginwidth="0px" webkitallowfullscreen-->
-		<!--					mozallowfullscreen allowfullscreen src="https://showmojo.com/491c33f039/l"></iframe>-->
-		<!--			</div>-->
-		<!--		</div>-->
-		<!--	</div>-->
-		<!--</section>-->
-	<section class="container" style="background:#f8f8f8 !important;width:100%;margin-bottom:100px;">
+		<section class="container-fluid" style="background:#f3f3f3 !important;width:100%;margin-bottom:100px;">
 			<div class="">
 				<div class="row">
 					<div class="col-lg-12">
-						<script type='text/javascript' charset='utf-8'>
-  document.write(unescape("%3Cscript src='" + (('https:' == document.location.protocol) ? 'https:' : 'http:') + "//rtppropertiesnc.appfolio.com/javascripts/listing.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-
-<script type='text/javascript' charset='utf-8'>
-  Appfolio.Listing({
-    hostUrl: 'rtppropertiesnc.appfolio.com',
-    //propertyGroup: 'My Group Name',
-    themeColor: '#676767',
-    height: '1200px',
-    width: '100%',
-    defaultOrder: 'date_posted'
-  });
-</script>
+						<iframe class="showmojo-listings" style="border:0px;height: 650px;width:100%;" name="ShowMojoListingFrame"
+							scrolling="yes" frameborder="0" marginheight="0px" marginwidth="0px" webkitallowfullscreen
+							mozallowfullscreen allowfullscreen src="https://showmojo.com/491c33f039/l"></iframe>
 					</div>
 				</div>
 			</div>
 		</section>
+<!--	<section class="container" style="background:#f8f8f8 !important;width:100%;margin-bottom:100px;">-->
+<!--			<div class="">-->
+<!--				<div class="row">-->
+<!--					<div class="col-lg-12">-->
+<!--						<script type='text/javascript' charset='utf-8'>-->
+<!--  document.write(unescape("%3Cscript src='" + (('https:' == document.location.protocol) ? 'https:' : 'http:') + "//rtppropertiesnc.appfolio.com/javascripts/listing.js' type='text/javascript'%3E%3C/script%3E"));-->
+<!--</script>-->
+
+<!--<script type='text/javascript' charset='utf-8'>-->
+<!--  Appfolio.Listing({-->
+<!--    hostUrl: 'rtppropertiesnc.appfolio.com',-->
+    <!--//propertyGroup: 'My Group Name',-->
+<!--    themeColor: '#676767',-->
+<!--    height: '1200px',-->
+<!--    width: '100%',-->
+<!--    defaultOrder: 'date_posted'-->
+<!--  });-->
+<!--</script>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--			</div>-->
+<!--		</section>-->
 
 		<div class="call_section_list col-lg-12"
 			style="padding: 74px 30px 0px !important;background: url('https://appstacklabs.com/rtp_landing/img/house_background.jpg') center center/cover no-repeat fixed !important;">
@@ -459,9 +459,9 @@ document.getElementById('contactform').addEventListener('submit', function(event
 					<div class="follow_us">
 						<ul>
 							<li>Follow us</li>
-							<li><a href="#0"><i class="ti-facebook"></i></a></li>
-							<li><a href="#0"><i class="ti-instagram"></i></a></li>
-								<li><a href="#0"><i class="fa-icon-linkedin-square"></i></a></li>
+							<li><a href="#0"><i class="fa-icon-facebook-square"></i></a></li>
+                        <li><a href="#0"><i class="fa-icon-instagram"></i></a></li>
+                            <li><a href="#0"><i class="fa-icon-linkedin-square"></i></a></li>
 						</ul>
 					</div>
 				</div>

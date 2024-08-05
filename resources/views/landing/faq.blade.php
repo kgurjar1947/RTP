@@ -81,8 +81,8 @@ margin-bottom:0rem !important;
 				<li class="head-hovers"><span class="span-hero"><a href="{{url('/')}}" style="color:#000 !important;"><img src="{{ asset('/landing/img/home.png')}}"/> <br/>Home</a></span></li>	
 				<li class="head-hovers"><span class="span-hero"><a href="{{url('/about-us')}}" style="color:#000 !important;"><img src="{{ asset('/landing/img/about.png')}}"/> <br/>About</a></span></li>
 				<li class="head-hovers" style="width:125px;"><span class="span-hero"><a href="{{url('/listing')}}" style="color:#000 !important;"><img src="{{ asset('/landing/img/listing.png')}}"/> <br/>Rental Listings</a></span></li>
-				<li class="head-hovers"><span class="span-hero"><a href="{{url('/faq')}}" style="color:#000 !important;"><img src="{{ asset('/landing/img/faq.png')}}"/> <br/>FAQ</a></span></li>
-				<li class="head-hover"><span class="span-hero"><a href="{{url('/contact')}}" style="color:#FFF !important;"><img src="{{ asset('/landing/img/contact_us_hover.png')}}"/> <br/>Contact</a></span></li>
+				<li class="head-hover"><span class="span-hero"><a href="{{url('/faq')}}" style="color:#FFF !important;"><img src="{{ asset('/landing/img/faq_hover.png')}}"/> <br/>FAQ</a></span></li>
+				<li class="head-hovers"><span class="span-hero"><a href="{{url('/contact')}}" style="color:#000 !important;"><img src="{{ asset('/landing/img/contact_us.png')}}"/> <br/>Contact</a></span></li>
 			</ul>
 		
 		</nav>
@@ -1080,9 +1080,9 @@ top: 17px;
 					<div class="follow_us">
 						<ul>
 							<li>Follow us</li>
-							<li><a href="#0"><i class="ti-facebook"></i></a></li>
-							<li><a href="#0"><i class="ti-instagram"></i></a></li>
-								<li><a href="#0"><i class="fa-icon-linkedin-square"></i></a></li>
+							<li><a href="#0"><i class="fa-icon-facebook-square"></i></a></li>
+                        <li><a href="#0"><i class="fa-icon-instagram"></i></a></li>
+                            <li><a href="#0"><i class="fa-icon-linkedin-square"></i></a></li>
 						</ul>
 					</div>
 				</div>

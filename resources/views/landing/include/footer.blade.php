@@ -8,8 +8,8 @@
                 <div class="follow_us">
                     <ul>
                         <li>Follow us</li>
-                        <li><a href="#0"><i class="ti-facebook"></i></a></li>
-                        <li><a href="#0"><i class="ti-instagram"></i></a></li>
+                        <li><a href="#0"><i class="fa-icon-facebook-square"></i></a></li>
+                        <li><a href="#0"><i class="fa-icon-instagram"></i></a></li>
                             <li><a href="#0"><i class="fa-icon-linkedin-square"></i></a></li>
                     </ul>
                 </div>

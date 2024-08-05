@@ -34,6 +34,9 @@
     <link href="{{ asset('landing/css/listing.css')}}" rel="stylesheet">
     <!-- ALTERNATIVE COLORS CSS -->
     <link href="{{ asset('landing/css/testmonials.css')}}" rel="stylesheet">
+<!--mail chimp-->
+<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/34e30a3224236a3db238463a1/782627e3c851c30336df7817f.js");</script>
+<!--end mail chimp-->
 <style>
 .hero-button{
 position: relative;
